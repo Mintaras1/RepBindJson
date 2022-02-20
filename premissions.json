@@ -1,4 +1,3 @@
 [
-  {"Vardas_Pavarde":"Khai_Offline","Premium":true,"Demo":false},
-  {"Vardas_Pavarde":"Eml_Bot","Premium":true,"Demo":true}
+  {"Vardas_Pavarde":"Khai_Offline","PremiumSkalbenke":true,"PremiumKeybind":true,"Demo":true}
 ]
