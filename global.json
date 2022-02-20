@@ -1,0 +1,7 @@
+{
+"DarboTr":[
+	{"Priority":"Primary","VehID":582,"Delay":15000},
+	{"Priority":"Secondary","VehID":500,"Delay":20000},
+	{"Priority":"Special","VehID":424,"Delay":17500},
+	{"Priority":"Special","VehID":488,"Delay":17500}]
+}
