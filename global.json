@@ -1,8 +1,8 @@
 {
 "Global":{
-    "AutoUpdate":false,
     "NaujausiaVersija":"4.0.0",
-    "UpdateNotification":false
+    "UpdateNotification":false,
+    "AutoUpdate":false
     },
 "GlobalSettings":{
     "Nustatymai_Int_1":true,
@@ -22,32 +22,40 @@
     "Darbine1":{
         "Pavadinimas":"News Van",
         "VehID":582,
-        "Delay":15000},
+        "Delay":15000
+        },
     "Darbine2":{
-        "Prioritetas":"Mesa",
+        "Pavadinimas":"Mesa",
         "VehID":500,
-        "Delay":20000},
+        "Delay":20000
+        },
     "Darbine3":{
-        "Prioritetas":"News Chopper",
+        "Pavadinimas":"News Chopper",
         "VehID":488,
-        "Delay":17500},
+        "Delay":17500
+        },
     "Darbine4":{
-        "Prioritetas":"BF Injection",
+        "Pavadinimas":"BF Injection",
         "VehID":424,
-        "Delay":17500}
+        "Delay":17500
+        }
     },
 "ImGui":{
     "Spiff_SSK":{
         "Title":"Skelbimų pardavimo info | by [@Spiff~]",
-        "Text":"Siūlant pirkti skelbimus, vietoj pilnos kainos, rašyti vieneto.\nReguoja į komandas, ją nespėjus nusiūsti serveriui\n\nŽaidime parašius vieną iš šių komandų:\n     \/ssk [nick] [skelbimu kiekis] [vieneto kaina]\nVieneto kainą pakeičia į galutinę.\n\nPvz:\nJūs parašte komandą:\n     \/ssk sliuuzas 200 5000\n\nServeris gauna komandą jog rašėte:\n     \/siulytisk sliuuzas 200 1000000\n\n\nVeikia siūlant ir su \"k\" (1k = 1000).\nVietoj nicko, galima rašyt ir žaidėjo id."},
+        "Text":"Siūlant pirkti skelbimus, vietoj pilnos kainos, rašyti vieneto.\nReguoja į komandas, ją nespėjus nusiūsti serveriui\n\nŽaidime parašius vieną iš šių komandų:\n     \/ssk [nick] [skelbimu kiekis] [vieneto kaina]\nVieneto kainą pakeičia į galutinę.\n\nPvz:\nJūs parašte komandą:\n     \/ssk sliuuzas 200 5000\n\nServeris gauna komandą jog rašėte:\n     \/siulytisk sliuuzas 200 1000000\n\n\nVeikia siūlant ir su \"k\" (1k = 1000).\nVietoj nicko, galima rašyt ir žaidėjo id."
+        },
     "Spiff_SSK_Tarifai":{
         "Title":"SiulytiSK kainyno info | by [@Spiff~]",
-        "Text":"Pilnos galimos kainų komandos:\n\n\/ssk [nick] [skelbimu kiekis] [Paprastas] - Paprastom kainom\n\/ssk [nick] [skelbimu kiekis] [Paslaugos] - Paslaugų kainom\n\/ssk [nick] [skelbimu kiekis] [Nalogas] - Nalogo kainom\n\/ssk [nick] [skelbimu kiekis] [NalogasPaslaugos] - Paslauginių Nalogų kainom\n\/ssk [nick] [skelbimu kiekis] [Naujokas] - Naujoko kainom\n\n\nTaippat, yra ir komandų trumpiniai:\n\n\/ssk [nick] [skelbimu kiekis] [ ] - Paprastom kainom\n\/ssk [nick] [skelbimu kiekis] [P] - Paslaugų kainom\n\/ssk [nick] [skelbimu kiekis] [N] - Nalogo kainom\n\/ssk [nick] [skelbimu kiekis] [NP] - Paslauginių Nalogų kainom\n\/ssk [nick] [skelbimu kiekis] [New] - Naujoko kainom\n\n\nVietoj žaidėjo nick, galima rašyti ID\nVieneto kainą pakeis į pilą kainą (Forumulė: [Skelbimų kiekis] * [Vieneto kaina])"},
+        "Text":"Pilnos galimos kainų komandos:\n\n\/ssk [nick] [skelbimu kiekis] [Paprastas] - Paprastom kainom\n\/ssk [nick] [skelbimu kiekis] [Paslaugos] - Paslaugų kainom\n\/ssk [nick] [skelbimu kiekis] [Nalogas] - Nalogo kainom\n\/ssk [nick] [skelbimu kiekis] [NalogasPaslaugos] - Paslauginių Nalogų kainom\n\/ssk [nick] [skelbimu kiekis] [Naujokas] - Naujoko kainom\n\n\nTaippat, yra ir komandų trumpiniai:\n\n\/ssk [nick] [skelbimu kiekis] [ ] - Paprastom kainom\n\/ssk [nick] [skelbimu kiekis] [P] - Paslaugų kainom\n\/ssk [nick] [skelbimu kiekis] [N] - Nalogo kainom\n\/ssk [nick] [skelbimu kiekis] [NP] - Paslauginių Nalogų kainom\n\/ssk [nick] [skelbimu kiekis] [New] - Naujoko kainom\n\n\nVietoj žaidėjo nick, galima rašyti ID\nVieneto kainą pakeis į pilą kainą (Forumulė: [Skelbimų kiekis] * [Vieneto kaina])"
+        },
     "Spiff_AutoInsertion":{
         "Title":"Automatinio skelbimo įdėjimo info | by [@Spiff~]",
-        "Text":"Automagiškai pasiima skelbimą ir įsideda į reporterių skalbenkę.\nReguoja į komandas, jų nespėjus nusiūsti serveriui\n\nŽaidime parašius:\n\/x [1-10] [kiekis] [skelbimas] << įdeda skelbimą į pasirinktą slotą\n\/x x [kiekis] [skelbimas] << įdeda skelbimą į laisvą slotą\n\/xx [kiekis] [skelbimas] << įdeda skelbimą į laisvą slotą\n\nJeigu nėra laisvų slotų, apie tai praneš."},
+        "Text":"Automagiškai pasiima skelbimą ir įsideda į reporterių skalbenkę.\nReguoja į komandas, jų nespėjus nusiūsti serveriui\n\nŽaidime parašius:\n\/x [1-10] [kiekis] [skelbimas] << įdeda skelbimą į pasirinktą slotą\n\/x x [kiekis] [skelbimas] << įdeda skelbimą į laisvą slotą\n\/xx [kiekis] [skelbimas] << įdeda skelbimą į laisvą slotą\n\nJeigu nėra laisvų slotų, apie tai praneš."
+        },
     "Spiff_AutoSkalbenke":{
         "Title":"AutoSkalbenės info | by [@Spiff~]",
-        "Text":"Dirbant su [News Van], automatiškai skalbs kas 15sec.\nDirbant su [News Maverick ; BFI], automatiškai skalbs kas 17,5sec.\nDirbant su [Mesa], automatiškai skalbs kas 20sec.\n\nBūtina sėdėti už vairo!\nSėdint G skelbimai nebus skelbiami\nBūnant ESC\/nuleidus žaidimą, skelbimai nebus skelbiami.\nIšmetus AFK, nustos skelbti skelbimus."}
+        "Text":"Dirbant su [News Van], automatiškai skalbs kas 15sec.\nDirbant su [News Maverick ; BFI], automatiškai skalbs kas 17,5sec.\nDirbant su [Mesa], automatiškai skalbs kas 20sec.\n\nBūtina sėdėti už vairo!\nSėdint G skelbimai nebus skelbiami\nBūnant ESC\/nuleidus žaidimą, skelbimai nebus skelbiami.\nIšmetus AFK, nustos skelbti skelbimus."
+        }
     }
 }
