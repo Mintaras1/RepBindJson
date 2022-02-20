@@ -1,0 +1,19 @@
+{
+"Nustatymai_Int":[
+    1400,
+    10500,
+    1],
+"Nustatymai_Bool":[
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false],
+"Nustatymai_Aktyvacija":[
+    "Right Ctrl", 
+    "F3"]
+}
