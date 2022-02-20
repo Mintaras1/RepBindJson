@@ -43,19 +43,117 @@
 "ImGui":{
     "Spiff_SSK":{
         "Title":"Skelbimų pardavimo info | by [@Spiff~]",
-        "Text":"Siūlant pirkti skelbimus, vietoj pilnos kainos, rašyti vieneto.\nReguoja į komandas, ją nespėjus nusiūsti serveriui\n\nŽaidime parašius vieną iš šių komandų:\n     \/ssk [nick] [skelbimu kiekis] [vieneto kaina]\nVieneto kainą pakeičia į galutinę.\n\nPvz:\nJūs parašte komandą:\n     \/ssk sliuuzas 200 5000\n\nServeris gauna komandą jog rašėte:\n     \/siulytisk sliuuzas 200 1000000\n\n\nVeikia siūlant ir su \"k\" (1k = 1000).\nVietoj nicko, galima rašyt ir žaidėjo id."
+        "Text":
+"Siūlant pirkti skelbimus, vietoj pilnos kainos, rašyti vieneto.
+Reguoja į komandas, ją nespėjus nusiūsti serveriui
+
+Žaidime parašius vieną iš šių komandų:
+    /ssk [nick] [skelbimu kiekis] [vieneto kaina]
+Vieneto kainą pakeičia į galutinę.
+
+Pvz:
+Jūs parašte komandą:
+    /ssk sliuuzas 200 5000
+
+Serveris gauna komandą jog rašėte:
+    /siulytisk sliuuzas 200 1000000
+
+
+Veikia siūlant ir su \"k\" (1k = 1000).
+Vietoj nicko, galima rašyt ir žaidėjo id."
         },
     "Spiff_SSK_Tarifai":{
         "Title":"SiulytiSK kainyno info | by [@Spiff~]",
-        "Text":"Pilnos galimos kainų komandos:\n\n\/ssk [nick] [skelbimu kiekis] [Paprastas] - Paprastom kainom\n\/ssk [nick] [skelbimu kiekis] [Paslaugos] - Paslaugų kainom\n\/ssk [nick] [skelbimu kiekis] [Nalogas] - Nalogo kainom\n\/ssk [nick] [skelbimu kiekis] [NalogasPaslaugos] - Paslauginių Nalogų kainom\n\/ssk [nick] [skelbimu kiekis] [Naujokas] - Naujoko kainom\n\n\nTaippat, yra ir komandų trumpiniai:\n\n\/ssk [nick] [skelbimu kiekis] [ ] - Paprastom kainom\n\/ssk [nick] [skelbimu kiekis] [P] - Paslaugų kainom\n\/ssk [nick] [skelbimu kiekis] [N] - Nalogo kainom\n\/ssk [nick] [skelbimu kiekis] [NP] - Paslauginių Nalogų kainom\n\/ssk [nick] [skelbimu kiekis] [New] - Naujoko kainom\n\n\nVietoj žaidėjo nick, galima rašyti ID\nVieneto kainą pakeis į pilą kainą (Forumulė: [Skelbimų kiekis] * [Vieneto kaina])"
+        "Text":
+"Pilnos galimos kainų komandos:
+
+/ssk [nick] [skelbimu kiekis] [Paprastas] - Paprastom kainom
+/ssk [nick] [skelbimu kiekis] [Paslaugos] - Paslaugų kainom
+/ssk [nick] [skelbimu kiekis] [Nalogas] - Nalogo kainom
+/ssk [nick] [skelbimu kiekis] [NalogasPaslaugos] - Paslauginių Nalogų kainom
+/ssk [nick] [skelbimu kiekis] [Naujokas] - Naujoko kainom
+
+
+Taippat, yra ir komandų trumpiniai:
+
+/ssk [nick] [skelbimu kiekis] [ ] - Paprastom kainom
+/ssk [nick] [skelbimu kiekis] [P] - Paslaugų kainom
+/ssk [nick] [skelbimu kiekis] [N] - Nalogo kainom
+/ssk [nick] [skelbimu kiekis] [NP] - Paslauginių Nalogų kainom
+/ssk [nick] [skelbimu kiekis] [New] - Naujoko kainom
+
+
+Vietoj žaidėjo nick, galima rašyti ID
+Vieneto kainą pakeis į pilą kainą (Forumulė: [Skelbimų kiekis] * [Vieneto kaina])"
         },
     "Spiff_AutoInsertion":{
         "Title":"Automatinio skelbimo įdėjimo info | by [@Spiff~]",
-        "Text":"Automagiškai pasiima skelbimą ir įsideda į reporterių skalbenkę.\nReguoja į komandas, jų nespėjus nusiūsti serveriui\n\nŽaidime parašius:\n\/x [1-10] [kiekis] [skelbimas] << įdeda skelbimą į pasirinktą slotą\n\/x x [kiekis] [skelbimas] << įdeda skelbimą į laisvą slotą\n\/xx [kiekis] [skelbimas] << įdeda skelbimą į laisvą slotą\n\nJeigu nėra laisvų slotų, apie tai praneš."
+        "Text":
+"Automagiškai pasiima skelbimą ir įsideda į reporterių skalbenkę.
+Reguoja į komandas, jų nespėjus nusiūsti serveriui
+
+Žaidime parašius:
+/x [1-10] [kiekis] [skelbimas] << įdeda skelbimą į pasirinktą slotą
+/x x [kiekis] [skelbimas] << įdeda skelbimą į laisvą slotą
+xx [kiekis] [skelbimas] << įdeda skelbimą į laisvą slotą
+
+Jeigu nėra laisvų slotų, apie tai praneš."
         },
     "Spiff_AutoSkalbenke":{
         "Title":"AutoSkalbenės info | by [@Spiff~]",
-        "Text":"Dirbant su [News Van], automatiškai skalbs kas 15sec.\nDirbant su [News Maverick ; BFI], automatiškai skalbs kas 17,5sec.\nDirbant su [Mesa], automatiškai skalbs kas 20sec.\n\nBūtina sėdėti už vairo!\nSėdint G skelbimai nebus skelbiami\nBūnant ESC\/nuleidus žaidimą, skelbimai nebus skelbiami.\nIšmetus AFK, nustos skelbti skelbimus."
+        "Text":
+"Dirbant su [News Van], automatiškai skalbs kas 15sec.
+Dirbant su [News Maverick ; BFI], automatiškai skalbs kas 17,5sec.
+Dirbant su [Mesa], automatiškai skalbs kas 20sec.
+
+Būtina sėdėti už vairo!
+Sėdint G skelbimai nebus skelbiami
+Būnant ESC/nuleidus žaidimą, skelbimai nebus skelbiami.
+Išmetus AFK, nustos skelbti skelbimus."
+        },
+    "Strukturos":{
+        "Text":
+"Namams:
+[V_P] Perka [Namą/Butą/Sklypą][Miestas][Vieta][Vidus][Spinta][Būtina][Papildoma][Kaina]
+[V_P] Parduoda [Namą/Butą/Sklypą][Galioja][Miestas][Vieta][Vidus][Spinta][Papildoma][Kaina/Pasiūlyta]
+
+Transportui:
+[V_P] Perka [Mašiną/Motociklą/Laivą/Dviratį][Rida][Bagažinė][Būtina][Papildoma][Kaina]
+[V_P] Parduoda [Mašiną/Motociklą/Laivą/Dviratį][Rida][Bagažinė][Papildoma][Kaina]
+
+Paslaugos:
+[V_P] Kelia [Rida][Papildoma][Kaina]
+[V_P] Iesko [Ridos kelejo][Masina][Būtina][Papildoma][Kaina]
+[V_P] Parduoda [Maista][Vieta][Papildoma]
+[V_P] Stato [Namus/Sklypus/Loftus][Papildoma][Kaina]
+[V_P] Iesko [Statybininko][Būtina][Papildoma][Kaina]
+[V_P] Tarpininkauja [Pratarpinta][Papildoma][Kaina]
+[V_P] Iesko [Tarpininko][Būtina][Papildoma][Kaina]
+[V_P] Parduoda [Busto rakta][Maph][Papildoma][Kaina]
+[V_P] Perka [Busto rakta][Miestas][Vidus][Būtina][Papildoma][Kaina]
+[V_P] Nuomuoja [Masina][Papildoma][Kaina]
+[V_P] Iesko [Masinos nuomuoti][Masina][Būtina][Kaina]
+[V_P] Vezioja [Zmones][Masina][Papildoma][Kaina]
+[V_P] Iesko [Veziotojo][Būtina][Kaina]
+[Reklama] Tarnyba darbuojasi! - /kviesti Tarnyba [vieta]
+
+Smulkusis_turtas:
+[V_P] Perka [Garaza][Galioja][Miestas][Vieta][Spinta][Papildoma][Kaina]
+[V_P] Parduoda [Garaza][Galioja][Miestas][Vieta][Spinta][Papildoma][Kaina]
+[V_P] Perka [Versla][Papildoma][Kaina]
+[V_P] Parduoda [Versla][Kaina/Pasiūlyta]
+[V_P] Perka [Daikta(-us)][Kaina]
+[V_P] Parduoda [Daikta(-us)][Kaina]
+[V_P] Perka [Kanapiu seklas][Būtina][Kaina]
+[V_P] Parduoda [Kanapiu seklas][Papildoma][Kaina]
+
+Azartines_pramogos:
+[V_P] Zaidzia [Zvejyba][Papildoma][Statymas]
+[V_P] Zaidzia [Zaidima][Papildoma][Statymas]
+V_P] Zaidzia [Moneta][Papildoma][Statymas]
+[V_P] Zaidzia [Biliarda][Vieta][Statymas]
+[V_P] Zaidzia [Kartingais(-us)][Statymas]
+[V_P] Zaidzia [Tanku kovas][Statymas]"
         }
     }
 }
