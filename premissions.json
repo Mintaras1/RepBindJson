@@ -1,8 +1,9 @@
-[
-  {"Vardas_Pavarde":"Khai_Offline",
-   "PremiumSkalbenkePed":"2022-02-30",
-   "PremiumSkalbenkeVeh":"2022-02-30",
-   "PremiumKeybind":"2022-02-30",
-   "PremiumSSK":"2022-02-30",
-   "Debug":false}
-]
+{"Vardas_Pavarde":"Khai_Offline",
+"Premium":{
+	"SkalbenkePed":"2022-02-30",
+	"SkalbenkeVeh":"2022-02-30",
+	"Delay":15000,
+	"Keybind":"2022-02-30",
+	"SSK":"2022-02-30"
+	},
+"Debug":false}
