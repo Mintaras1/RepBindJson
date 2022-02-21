@@ -2,23 +2,23 @@
 "Khai_Offline":{
     "Premium":{
         "SkalbenkePed":"2022-02-30",
-        "SSK":"2022-02-30",
-        "Delay":15000,
         "SkalbenkeVeh":"2022-02-30",
-        "Keybind":"2022-02-30"
+        "Delay":15000,
+        "Keybind":"2022-02-30",
+        "SSK":"2022-02-30"
         },
     "Flags":{
-        "isGameWindowForeground":false
+        "isGameWindowForeground":true
         },
-    "Debug":false
+    "Debug":true
     },
 "Kenji_Yamamoto":{
     "Premium":{
-        "SkalbenkePed":"false",
-        "SSK":"2022-02-30",
-        "Delay":15000,
+        "SkalbenkePed":"2022-02-30",
         "SkalbenkeVeh":"2022-02-30",
-        "Keybind":"2022-02-30"
+        "Delay":15000,
+        "Keybind":"2022-02-30",
+        "SSK":"2022-02-30"
         },
     "Flags":{
         "isGameWindowForeground":false
