@@ -1,60 +1,57 @@
 {
-"Global":{
-    "NaujausiaVersija":"4.0",
-    "DownloadLink":"https://www.github.com/",
-    "UpdateNotification":true,
-    "AutoUpdate":true
+    "Global":{
+        "NaujausiaVersija":"4.0",
+        "DownloadLink":"https://www.github.com/",
+        "UpdateNotification":true,
+        "AutoUpdate":true
+        },
+    "TextDraw":{
+        "Data":46,
+        "AFK":2087
     },
-"TextDraw":{
-    "Data":46,
-    "AFK":2087
-},
-"GlobalSettings":{
-    "Nustatymai_Int_1":"",
-    "Nustatymai_Int_2":"",
-    "Nustatymai_Int_3":"",
-    "Nustatymai_Bool_1":true,
-    "Nustatymai_Bool_2":true,
-    "Nustatymai_Bool_3":true,
-    "Nustatymai_Bool_4":true,
-    "Nustatymai_Bool_5":true,
-    "Nustatymai_Bool_6":true,
-    "Nustatymai_Bool_7":true,
-    "Nustatymai_Bool_8":true,
-    "Nustatymai_Bool_9":false
-    },
-"DarboTr":{
-    "DarbiniuSkaicius":5,
-    "Darbine1":{
-        "Pavadinimas":"News Van",
-        "VehID":582,
-        "Delay":15000
+    "GlobalSettings":{
+        "Nustatymai_Bool_1":true,
+        "Nustatymai_Bool_2":true,
+        "Nustatymai_Bool_3":true,
+        "Nustatymai_Bool_4":true,
+        "Nustatymai_Bool_5":true,
+        "Nustatymai_Bool_6":true,
+        "Nustatymai_Bool_7":true,
+        "Nustatymai_Bool_8":true,
+        "Nustatymai_Bool_9":false
         },
-    "Darbine2":{
-        "Pavadinimas":"Mesa",
-        "VehID":500,
-        "Delay":20000
+    "DarboTr":{
+        "DarbiniuSkaicius":5,
+        "Darbine1":{
+            "Pavadinimas":"News Van",
+            "VehID":582,
+            "Delay":15000
+            },
+        "Darbine2":{
+            "Pavadinimas":"Mesa",
+            "VehID":500,
+            "Delay":20000
+            },
+        "Darbine3":{
+            "Pavadinimas":"News Chopper",
+            "VehID":488,
+            "Delay":17500
+            },
+        "Darbine4":{
+            "Pavadinimas":"BF Injection",
+            "VehID":424,
+            "Delay":17500
+            },
+        "Darbine5":{
+            "Pavadinimas":"Rancher",
+            "VehID":489,
+            "Delay":15000
+            }
         },
-    "Darbine3":{
-        "Pavadinimas":"News Chopper",
-        "VehID":488,
-        "Delay":17500
-        },
-    "Darbine4":{
-        "Pavadinimas":"BF Injection",
-        "VehID":424,
-        "Delay":17500
-        },
-    "Darbine5":{
-        "Pavadinimas":"Rancher",
-        "VehID":489,
-        "Delay":15000
-        }
-    },
-"ImGui":{
-    "Spiff_SSK":{
-        "Title":"Skelbimų pardavimo info | by [@Spiff~]",
-        "Text":
+    "ImGui":{
+        "Spiff_SSK":{
+            "Title":"Skelbimų pardavimo info | by [@Spiff~]",
+            "Text":
 "Siūlant pirkti skelbimus, vietoj pilnos kainos, rašyti vieneto.
 Reguoja į komandas, ją nespėjus nusiūsti serveriui
 
@@ -72,10 +69,10 @@ Serveris gauna komandą jog rašėte:
 
 Veikia siūlant ir su \"k\" (1k = 1000).
 Vietoj nicko, galima rašyt ir žaidėjo id."
-        },
-    "Spiff_SSK_Tarifai":{
-        "Title":"SiulytiSK kainyno info | by [@Spiff~]",
-        "Text":
+            },
+        "Spiff_SSK_Tarifai":{
+            "Title":"SiulytiSK kainyno info | by [@Spiff~]",
+            "Text":
 "Pilnos galimos kainų komandos:
 
 /ssk [nick] [skelbimu kiekis] [Paprastas] - Paprastom kainom
@@ -96,10 +93,10 @@ Taippat, yra ir komandų trumpiniai:
 
 Vietoj žaidėjo nick, galima rašyti ID
 Vieneto kainą pakeis į pilą kainą (Forumulė: [Skelbimų kiekis] * [Vieneto kaina])"
-        },
-    "Spiff_AutoInsertion":{
-        "Title":"Automatinio skelbimo įdėjimo info | by [@Spiff~]",
-        "Text":
+            },
+        "Spiff_AutoInsertion":{
+            "Title":"Automatinio skelbimo įdėjimo info | by [@Spiff~]",
+            "Text":
 "Automagiškai pasiima skelbimą ir įsideda į reporterių skalbenkę.
 Reguoja į komandas, jų nespėjus nusiūsti serveriui
 
@@ -109,10 +106,10 @@ Reguoja į komandas, jų nespėjus nusiūsti serveriui
 xx [kiekis] [skelbimas] << įdeda skelbimą į laisvą slotą
 
 Jeigu nėra laisvų slotų, apie tai praneš."
-        },
-    "Spiff_AutoSkalbenke":{
-        "Title":"AutoSkalbenės info | by [@Spiff~]",
-        "Text":
+            },
+        "Spiff_AutoSkalbenke":{
+            "Title":"AutoSkalbenės info | by [@Spiff~]",
+            "Text":
 "Dirbant su [News Van], automatiškai skalbs kas 15sec.
 Dirbant su [News Maverick ; BFI], automatiškai skalbs kas 17,5sec.
 Dirbant su [Mesa], automatiškai skalbs kas 20sec.
@@ -121,9 +118,9 @@ Būtina sėdėti už vairo!
 Sėdint G skelbimai nebus skelbiami
 Būnant ESC/nuleidus žaidimą, skelbimai nebus skelbiami.
 Išmetus AFK, nustos skelbti skelbimus."
-        },
-    "Strukturos":{
-        "Text":
+            },
+        "Strukturos":{
+            "Text":
 "Namams:
 [V_P] Perka [Namą/Butą/Sklypą][Miestas][Vieta][Vidus][Spinta][Būtina][Papildoma][Kaina]
 [V_P] Parduoda [Namą/Butą/Sklypą][Galioja][Miestas][Vieta][Vidus][Spinta][Papildoma][Kaina/Pasiūlyta]
@@ -165,6 +162,13 @@ Azartines_pramogos:
 [V_P] Zaidzia [Biliarda][Vieta][Statymas]
 [V_P] Zaidzia [Kartingais(-us)][Statymas]
 [V_P] Zaidzia [Tanku kovas][Statymas]"
+                },
+            "AP":{
+                "Title":"Astralinis Pasaulis",
+                "Text":
+"Astralinis Pasaulis-Demonams, neši duoklę?
+Gauni bomba, mirštant diodai sprogsta, vergas amžiams."
+            }
         }
     }
-}
+    
