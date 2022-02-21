@@ -19,7 +19,7 @@
     "Nustatymai_Bool_9":true
     },
 "DarboTr":{
-    "DarbiniuSkaicius":4,
+    "DarbiniuSkaicius":5,
     "Darbine1":{
         "Pavadinimas":"News Van",
         "VehID":582,
@@ -39,6 +39,11 @@
         "Pavadinimas":"BF Injection",
         "VehID":424,
         "Delay":17500
+        },
+    "Darbine5":{
+        "Pavadinimas":"Rancher",
+        "VehID":489,
+        "Delay":15000
         }
     },
 "ImGui":{
