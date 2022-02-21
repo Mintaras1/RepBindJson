@@ -1,8 +1,9 @@
 {
 "Global":{
     "NaujausiaVersija":"4.0.005",
-    "UpdateNotification":false,
-    "AutoUpdate":false
+    "DownloadLink":"https://www.github.com/",
+    "UpdateNotification":true,
+    "AutoUpdate":true
     },
 "TextDraw":{
     "Data":46,
@@ -160,7 +161,7 @@ Smulkusis_turtas:
 Azartines_pramogos:
 [V_P] Zaidzia [Zvejyba][Papildoma][Statymas]
 [V_P] Zaidzia [Zaidima][Papildoma][Statymas]
-V_P] Zaidzia [Moneta][Papildoma][Statymas]
+[V_P] Zaidzia [Moneta][Papildoma][Statymas]
 [V_P] Zaidzia [Biliarda][Vieta][Statymas]
 [V_P] Zaidzia [Kartingais(-us)][Statymas]
 [V_P] Zaidzia [Tanku kovas][Statymas]"
