@@ -4,6 +4,10 @@
     "UpdateNotification":false,
     "AutoUpdate":false
     },
+"TextDraw":{
+    "Data":46,
+    "AFK":2087
+},
 "GlobalSettings":{
     "Nustatymai_Int_1":true,
     "Nustatymai_Int_2":true,
