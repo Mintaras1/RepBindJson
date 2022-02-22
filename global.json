@@ -1,6 +1,6 @@
 {
     "Global":{
-        "NaujausiaVersija":"4.0",
+        "NaujausiaVersija":"3.9",
         "DownloadLink":"https://www.github.com/",
         "UpdateNotification":true,
         "AutoUpdate":true
@@ -44,8 +44,12 @@
             }
         },
     "ImGui":{
-        "Spiff_SSK":{
+        "SSK":{
             "Title":"Skelbimų pardavimo info | by [@Spiff~]",
+            "WindowSize":{
+                "X":350,
+                "Y":280
+                },
             "Text":
 "Siūlant pirkti skelbimus, vietoj pilnos kainos, rašyti vieneto.
 Reguoja į komandas, ją nespėjus nusiūsti serveriui
@@ -65,8 +69,12 @@ Serveris gauna komandą jog rašėte:
 Veikia siūlant ir su \"k\" (1k = 1000).
 Vietoj nicko, galima rašyt ir žaidėjo id."
             },
-        "Spiff_SSK_Tarifai":{
+        "SSK_Tarifai":{
             "Title":"SiulytiSK kainyno info | by [@Spiff~]",
+            "WindowSize":{
+                "X":470,
+                "Y":325
+                },
             "Text":
 "Pilnos galimos kainų komandos:
 
@@ -80,8 +88,8 @@ Vietoj nicko, galima rašyt ir žaidėjo id."
 Taippat, yra ir komandų trumpiniai:
 
 /ssk [nick] [skelbimu kiekis] [ ] - Paprastom kainom
-/ssk [nick] [skelbimu kiekis] [P] - Paslaugų kainom
-/ssk [nick] [skelbimu kiekis] [N] - Nalogo kainom
+/ssk [nick] [skelbimu kiekis] [Pas] - Paslaugų kainom
+/ssk [nick] [skelbimu kiekis] [Nal] - Nalogo kainom
 /ssk [nick] [skelbimu kiekis] [NP] - Paslauginių Nalogų kainom
 /ssk [nick] [skelbimu kiekis] [New] - Naujoko kainom
 
@@ -89,8 +97,12 @@ Taippat, yra ir komandų trumpiniai:
 Vietoj žaidėjo nick, galima rašyti ID
 Vieneto kainą pakeis į pilą kainą (Forumulė: [Skelbimų kiekis] * [Vieneto kaina])"
             },
-        "Spiff_AutoInsertion":{
+        "AutoInsertion":{
             "Title":"Automatinio skelbimo įdėjimo info | by [@Spiff~]",
+            "WindowSize":{
+                "X":380,
+                "Y":170
+                },
             "Text":
 "Automagiškai pasiima skelbimą ir įsideda į reporterių skalbenkę.
 Reguoja į komandas, jų nespėjus nusiūsti serveriui
@@ -102,8 +114,12 @@ xx [kiekis] [skelbimas] << įdeda skelbimą į laisvą slotą
 
 Jeigu nėra laisvų slotų, apie tai praneš."
             },
-        "Spiff_AutoSkalbenke":{
+        "AutoSkalbenke":{
             "Title":"AutoSkalbenės info | by [@Spiff~]",
+            "WindowSize":{
+                "X":380,
+                "Y":160
+                },
             "Text":
 "Dirbant su [News Van], automatiškai skalbs kas 15sec.
 Dirbant su [News Maverick ; BFI], automatiškai skalbs kas 17,5sec.
