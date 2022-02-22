@@ -2,7 +2,6 @@
     "Global":{
         "NaujausiaVersija":"4.0",
         "DownloadLink":"",
-        "BetaTest":true,
         "UpdateNotification":false,
         "AutoUpdate":false
         },
