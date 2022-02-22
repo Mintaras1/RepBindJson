@@ -61,7 +61,7 @@
 {000000}.            {f4a529}[$] {a9c4e4}Premium skalbenkė (automatinis skelbimas nebūnant mašinoje)
 {000000}.            {f4a529}[$] {a9c4e4}Premium keybind (galimybė loopint betkokį tekstą/komandą)
 {000000}.            {f4a529}[$] {a9c4e4}Premium skaičiuoklė (vietoj vnt kainos galima rašyt paslaugų tipą)
-{e38f8f}[-] {C0C0C0}Paprasto keybindo automatinę funkciją bus galima naudoti tik su nustatytomis komandomis.",
+{e38f8f}[-] {a9c4e4}Paprasto keybindo automatinę funkciją bus galima naudoti tik su nustatytomis komandomis.",
         "SSK":{
             "Title":"Skelbimų pardavimo info | by [@Spiff~]",
             "WindowSize":{
