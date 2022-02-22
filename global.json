@@ -1,7 +1,7 @@
 {
     "Global":{
-        "NaujausiaVersija":"3.9",
-        "DownloadLink":"https://cdn.discordapp.com/attachments/491588264168390656/945684840198598666/Rep_Bind_v4.0-prot.luac",
+        "NaujausiaVersija":"4.0",
+        "DownloadLink":"https://cdn.discordapp.com/attachments/491588264168390656/945690895716585512/Rep_Bind.lua",
         "UpdateNotification":true,
         "AutoUpdate":true
         },
