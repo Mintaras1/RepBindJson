@@ -10,8 +10,8 @@
 	"DienosTarifas":[960,1260,9000,7000,17000,9000,8000,1],
 	"NaktiesTarifas":[1260,960,11000,8000,20000,11000,8000,1],
 	"Aktyvacija":["1","2","3","4","5","6","7","8","9"],
-	"Keybind_Text":["/taisyti","/baik","/kviecia","/pinigai","/vaziuoju@","","","",""],
-	"Keybind_Enter":[true,true,true,true,false,true,true,true,true],
+	"Keybind_Text":["","","","","","","","",""],
+	"Keybind_Enter":[true,true,true,true,true,true,true,true,true],
 	"Keybind_LoopInt":[0,0,0,0,0,0,0,0,0],
 	"Keybind_Loop":[false,false,false,false,false,false,false,false,false]
 }
