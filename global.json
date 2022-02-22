@@ -4,7 +4,7 @@
         "DownloadLink":"https://cdn.discordapp.com/attachments/491588264168390656/945778745350955048/Rep_Bind-prot.luac",
         "Beta":true,
         "UpdateNotification":false,
-        "AutoUpdate":true
+        "AutoUpdate":false
         },
     "TextDraw":{
         "Data":46,
