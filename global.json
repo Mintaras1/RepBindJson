@@ -62,7 +62,7 @@
       {C0C0C0}Premium skalbenkė (automatinis skelbimas nebūnant mašinoje)
       {C0C0C0}Premium keybind (galimybė loopint betkokį tekstą/komandą)
       {C0C0C0}Premium skaičiuoklė (vietoj vnt kainos galima rašyt paslaugų tipą)
-{e38f8f}[-] {C0C0C0}Paprasto keybindo automatinę funkciją bus galima naudoti tik su nustatytomis komandomis."
+{e38f8f}[-] {C0C0C0}Paprasto keybindo automatinę funkciją bus galima naudoti tik su nustatytomis komandomis.",
         "SSK":{
             "Title":"Skelbimų pardavimo info | by [@Spiff~]",
             "WindowSize":{
