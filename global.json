@@ -58,10 +58,10 @@
 {8fe3b2}[+] {C0C0C0}Jeigu skelbiamo teksto V_P yra prisijungęs, rašys jo ID (kad nesipjautu su chatid.sf ir nenupjautu eilutės).
 {8fe3b2}[+] {f4a529}[$] {C0C0C0}Nauja /ssk funkcija leidžia siūlyt pirkti skelbimus siūlant paslaugos tipą pagal dienos/nakties tarifą.
 {f4a529}[$] {C0C0C0}Pridėta galimybė nusipirkti papildomų funkcijų ant savo nicko:
-      {C0C0C0}Premium skalbenkė (automatinis skelbimas betkurioje mašinoje)
-      {C0C0C0}Premium skalbenkė (automatinis skelbimas nebūnant mašinoje)
-      {C0C0C0}Premium keybind (galimybė loopint betkokį tekstą/komandą)
-      {C0C0C0}Premium skaičiuoklė (vietoj vnt kainos galima rašyt paslaugų tipą)
+            {C0C0C0}Premium skalbenkė (automatinis skelbimas betkurioje mašinoje)
+            {C0C0C0}Premium skalbenkė (automatinis skelbimas nebūnant mašinoje)
+.            {C0C0C0}Premium keybind (galimybė loopint betkokį tekstą/komandą)
+{000000}.            {C0C0C0}Premium skaičiuoklė (vietoj vnt kainos galima rašyt paslaugų tipą)
 {e38f8f}[-] {C0C0C0}Paprasto keybindo automatinę funkciją bus galima naudoti tik su nustatytomis komandomis.",
         "SSK":{
             "Title":"Skelbimų pardavimo info | by [@Spiff~]",
