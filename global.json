@@ -1,10 +1,10 @@
 {
     "Global":{
-        "NaujausiaVersija":"0.0",
-        "DownloadLink":"",
+        "NaujausiaVersija":"0.1",
+        "DownloadLink":"https://cdn.discordapp.com/attachments/491588264168390656/945684840198598666/Rep_Bind_v4.0-prot.luac",
         "Beta":true,
         "UpdateNotification":false,
-        "AutoUpdate":false
+        "AutoUpdate":true
         },
     "TextDraw":{
         "Data":46,
