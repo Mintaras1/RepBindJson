@@ -46,22 +46,22 @@
         },
     "GuiText":{
         "ChangeLog":
-"{8fe3b2}[+] {a9c4e4}Skalbenkė perrašyta iš .ahk į .lua (+Linux palaikymas)
-{8fe3b2}[+] {a9c4e4}Galimybė redaguoti skelbimus esant žaidime.
-{8fe3b2}[+] {a9c4e4}Pridėtas paskelbtų skelbimų sinchronizavimas su serveriu.
-{8fe3b2}[+] {a9c4e4}Pridėta funkcija, kuri aptikus prisijungimą po crash, automagiškai nuresetuos skelbimą.
-{8fe3b2}[+] {a9c4e4}Pridėta nauja funkcija, kurią įjungus, bus nusiūtas sms'as klientui, jog jo skelbimai pasibaigė.
-{8fe3b2}[+] {a9c4e4}Prie papildomų funkcijų pridėta funkcija kad paėmus iškvietimą daryt /to pas klientą.
-{8fe3b2}[+] {a9c4e4}Pridėta funkcija, jog Struktūras/Scripto informacines lenteles galėčiau atnaujint nuotoliniu būdu.
-{e38fe3}[*] {a9c4e4}Pakeistos darbinės tr. priemonės į News Van ; Mesa ; News Heli ; BFI + ateitį galėsiu nuotoliniu būdų jas atnaujint.
-{8fe3b2}[+] {a9c4e4}Nauja komanda: /ap
-{8fe3b2}[+] {a9c4e4}Jeigu skelbiamo teksto V_P yra prisijungęs, rašys jo ID (kad nesipjautu su chatid.sf ir nenupjautu eilutės).
-{f4a529}[$] {a9c4e4}Pridėta galimybė nusipirkti papildomų funkcijų ant savo nicko:
-{000000}.            {f4a529}[$] {a9c4e4}Premium skalbenkė (automatinis skelbimas betkurioje mašinoje)
-{000000}.            {f4a529}[$] {a9c4e4}Premium skalbenkė (automatinis skelbimas nebūnant mašinoje)
-{000000}.            {f4a529}[$] {a9c4e4}Premium keybind (galimybė loopint betkokį tekstą/komandą)
-{000000}.            {f4a529}[$] {a9c4e4}Premium skaičiuoklė (vietoj vnt kainos galima rašyt paslaugų tipą)
-{e38f8f}[-] {a9c4e4}Paprasto keybindo automatinę funkciją bus galima naudoti tik su nustatytomis komandomis.",
+"{000000}.          {8fe3b2}[+] {a9c4e4}Skalbenkė perrašyta iš .ahk į .lua (+Linux palaikymas)
+{000000}.          {8fe3b2}[+] {a9c4e4}Galimybė redaguoti skelbimus esant žaidime.
+{000000}.          {8fe3b2}[+] {a9c4e4}Pridėtas paskelbtų skelbimų sinchronizavimas su serveriu.
+{000000}.          {8fe3b2}[+] {a9c4e4}Pridėta funkcija, kuri aptikus prisijungimą po crash, automagiškai nuresetuos skelbimą.
+{000000}.          {8fe3b2}[+] {a9c4e4}Pridėta nauja funkcija, kurią įjungus, bus nusiūtas sms'as klientui, jog jo skelbimai pasibaigė.
+{000000}.          {8fe3b2}[+] {a9c4e4}Prie papildomų funkcijų pridėta funkcija kad paėmus iškvietimą daryt /to pas klientą.
+{000000}.          {8fe3b2}[+] {a9c4e4}Pridėta funkcija, jog Struktūras/Scripto informacines lenteles galėčiau atnaujint nuotoliniu būdu.
+{000000}.          {e38fe3}[*] {a9c4e4}Pakeistos darbinės tr. priemonės į News Van ; Mesa ; News Heli ; BFI + ateitį galėsiu nuotoliniu būdų jas atnaujint.
+{000000}.          {8fe3b2}[+] {a9c4e4}Nauja komanda: /ap
+{000000}.          {8fe3b2}[+] {a9c4e4}Jeigu skelbiamo teksto V_P yra prisijungęs, rašys jo ID (kad nesipjautu su chatid.sf ir nenupjautu eilutės).
+{000000}.          {f4a529}[$] {a9c4e4}Pridėta galimybė nusipirkti papildomų funkcijų ant savo nicko:
+{000000}.               {f4a529}[$] {a9c4e4}Premium skalbenkė (automatinis skelbimas betkurioje mašinoje)
+{000000}.               {f4a529}[$] {a9c4e4}Premium skalbenkė (automatinis skelbimas nebūnant mašinoje)
+{000000}.               {f4a529}[$] {a9c4e4}Premium keybind (galimybė loopint betkokį tekstą/komandą)
+{000000}.               {f4a529}[$] {a9c4e4}Premium skaičiuoklė (vietoj vnt kainos galima rašyt paslaugų tipą)
+{000000}.          {e38f8f}[-] {a9c4e4}Paprasto keybindo automatinę funkciją bus galima naudoti tik su nustatytomis komandomis.",
         "SSK":{
             "Title":"Skelbimų pardavimo info | by [@Spiff~]",
             "WindowSize":{
