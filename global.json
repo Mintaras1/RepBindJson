@@ -68,8 +68,10 @@
 {000000}.           {e38fe3}[*] {a9c4e4}Nunulinti default nustatymai, nunulintos paprasto keybindo default komandos.
 {e3c28f}[0.209] {8fe3b2}[+] {a9c4e4}beta versiju pakeitimai - /changelog.beta
 {e3c28f}[0.210] {e38fe3}[*] {a9c4e4}fixed skelbimoID (V_P).
-{e3c28f}[0.211] {e38fe3}[*] {a9c4e4}fixed skelbimoID (V P)
-{000000}.           {e38fe3}[*] {a9c4e4}Turėtu nebespamint į chatą kas 15sec jeigu nėr skelbimu.",
+{e3c28f}[0.211] {e38fe3}[*] {a9c4e4}fixed skelbimoID (V P).
+{000000}.           {e38fe3}[*] {a9c4e4}Turėtu nebespamint į chatą kas 15sec jeigu nėr skelbimu.
+{e3c28f}[0.212] {e38fe3}[*] {a9c4e4}Sėdint G su PremiumVeh nebeskelbs auto skelbimu.
+",
     "SSK":{
         "Title":"Skelbimų pardavimo info | by [@Spiff~]",
         "WindowSize":{
