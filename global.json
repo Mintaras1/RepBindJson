@@ -65,7 +65,8 @@
     "ChangeLogBeta":
 "{e3c28f}[0.207] {e38fe3}[*] {a9c4e4}Perrašyta autoupdate sistema.
 {e3c28f}[0.208] {e38fe3}[*] {a9c4e4}Skelbime esantį nicką pasigaus jeigu jis parašytas ir su tarpu.
-{e3c28f}[0.209] {8fe3b2}[*] {a9c4e4}beta versiju pakeitimai - /changelog.beta",
+{000000}.       {e38fe3}[*] {a9c4e4}Nunulinti default nustatymai, nunulinti paprasto keybindo default komandos.
+{e3c28f}[0.209] {8fe3b2}[+] {a9c4e4}beta versiju pakeitimai - /changelog.beta",
     "SSK":{
         "Title":"Skelbimų pardavimo info | by [@Spiff~]",
         "WindowSize":{
