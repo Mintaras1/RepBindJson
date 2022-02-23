@@ -1,7 +1,7 @@
 {
 "Global":{
-    "NaujausiaVersija":"0.209",
-    "DownloadLink":"https://cdn.discordapp.com/attachments/491588264168390656/946020128632504350/Rep_Bind-209.luac",
+    "NaujausiaVersija":"0.210",
+    "DownloadLink":"https://cdn.discordapp.com/attachments/491588264168390656/946028695758446612/Rep_Bind-210.luac",
     "Beta":true,
     "UpdateNotification":false,
     "AutoUpdate":true
@@ -66,7 +66,8 @@
 "{e3c28f}[0.207] {e38fe3}[*] {a9c4e4}Perrašyta autoupdate sistema.
 {e3c28f}[0.208] {e38fe3}[*] {a9c4e4}Skelbime esantį nicką pasigaus jeigu jis parašytas ir su tarpu.
 {000000}.           {e38fe3}[*] {a9c4e4}Nunulinti default nustatymai, nunulintos paprasto keybindo default komandos.
-{e3c28f}[0.209] {8fe3b2}[+] {a9c4e4}beta versiju pakeitimai - /changelog.beta",
+{e3c28f}[0.209] {8fe3b2}[+] {a9c4e4}beta versiju pakeitimai - /changelog.beta
+{e3c28f}[0.210] {8fe3b2}[*] {a9c4e4}fixed skelbimoID",
     "SSK":{
         "Title":"Skelbimų pardavimo info | by [@Spiff~]",
         "WindowSize":{
