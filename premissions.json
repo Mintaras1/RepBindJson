@@ -25,5 +25,5 @@
         },
     "Debug":false
     },
-"Ping":true
+"Ping":"Pong"
 }
