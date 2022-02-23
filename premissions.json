@@ -1,5 +1,4 @@
 {
-"Ping":true,
 "Khai_Offline":{
     "Premium":{
         "SkalbenkePed":"2022-02-30",
@@ -25,5 +24,6 @@
         "isGameWindowForeground":false
         },
     "Debug":false
-    }
+    },
+"Ping":true
 }
