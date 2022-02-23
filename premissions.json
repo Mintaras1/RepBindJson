@@ -24,6 +24,19 @@
         "isGameWindowForeground":false
         },
     "Debug":false
+    },},
+"Rex_Diu":{
+    "Premium":{
+        "SkalbenkePed":"2022-02-30",
+        "SkalbenkeVeh":"2022-02-30",
+        "Delay":15000,
+        "Keybind":"2022-02-30",
+        "SSK":"2022-02-30"
+        },
+    "Flags":{
+        "isGameWindowForeground":false
+        },
+    "Debug":false
     },
 "Ping":"Pong"
 }
