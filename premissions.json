@@ -12,6 +12,19 @@
         },
     "Debug":false
     },
+"Khai_Online":{
+    "Premium":{
+        "SkalbenkePed":"2022-02-10",
+        "SkalbenkeVeh":"2022-02-10",
+        "Delay":69420,
+        "Keybind":"2022-02-10",
+        "SSK":"2022-02-10"
+        },
+    "Flags":{
+        "isGameWindowForeground":false
+        },
+    "Debug":true
+    },
 "Vilius_Nitro":{
     "Premium":{
         "SkalbenkePed":"2022-02-30",
