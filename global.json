@@ -1,7 +1,7 @@
 {
 "Global":{
-    "NaujausiaVersija":"0.211",
-    "DownloadLink":"https://cdn.discordapp.com/attachments/491588264168390656/946040426928943104/Rep_Bind-211.luac",
+    "NaujausiaVersija":"0.212",
+    "DownloadLink":"https://cdn.discordapp.com/attachments/491588264168390656/946090910339436654/Rep_Bind-212.luac",
     "Beta":true,
     "UpdateNotification":false,
     "AutoUpdate":true
@@ -71,6 +71,7 @@
 {e3c28f}[0.211] {e38fe3}[*] {a9c4e4}fixed skelbimoID (V P).
 {000000}.           {e38fe3}[*] {a9c4e4}Turėtu nebespamint į chatą kas 15sec jeigu nėr skelbimu.
 {e3c28f}[0.212] {e38fe3}[*] {a9c4e4}Sėdint G su PremiumVeh nebeskelbs auto skelbimu.
+{000000}.           {8fe3b2}[+] {a9c4e4}/premium
 ",
     "SSK":{
         "Title":"Skelbimų pardavimo info | by [@Spiff~]",
