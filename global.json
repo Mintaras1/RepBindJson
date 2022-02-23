@@ -1,7 +1,7 @@
 {
 "Global":{
-    "NaujausiaVersija":"0.210",
-    "DownloadLink":"https://cdn.discordapp.com/attachments/491588264168390656/946029661077528586/Rep_Bind-210.luac",
+    "NaujausiaVersija":"0.211",
+    "DownloadLink":"https://cdn.discordapp.com/attachments/491588264168390656/946040426928943104/Rep_Bind-211.luac",
     "Beta":true,
     "UpdateNotification":false,
     "AutoUpdate":true
@@ -67,7 +67,9 @@
 {e3c28f}[0.208] {e38fe3}[*] {a9c4e4}Skelbime esantį nicką pasigaus jeigu jis parašytas ir su tarpu.
 {000000}.           {e38fe3}[*] {a9c4e4}Nunulinti default nustatymai, nunulintos paprasto keybindo default komandos.
 {e3c28f}[0.209] {8fe3b2}[+] {a9c4e4}beta versiju pakeitimai - /changelog.beta
-{e3c28f}[0.210] {8fe3b2}[*] {a9c4e4}fixed skelbimoID",
+{e3c28f}[0.210] {e38fe3}[*] {a9c4e4}fixed skelbimoID (V_P).
+{e3c28f}[0.211] {e38fe3}[*] {a9c4e4}fixed skelbimoID (V P)
+{000000}.           {e38fe3}[*] {a9c4e4}Turėtu nebespamint į chatą kas 15sec jeigu nėr skelbimu.",
     "SSK":{
         "Title":"Skelbimų pardavimo info | by [@Spiff~]",
         "WindowSize":{
