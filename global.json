@@ -62,6 +62,9 @@
 {000000}.               {f4a529}[$] {a9c4e4}Premium keybind (galimybė loopint betkokį tekstą/komandą)
 {000000}.               {f4a529}[$] {a9c4e4}Premium skaičiuoklė (vietoj vnt kainos galima rašyt paslaugų tipą)
 {000000}.          {e38f8f}[-] {a9c4e4}Paprasto keybindo automatinę funkciją bus galima naudoti tik su nustatytomis komandomis.",
+    "ChangeLogBeta":
+"{e3c28f}[0.207] {e38fe3}[*] Perrašyta autoupdate sistema.
+{e3c28f}[0.208] {e38fe3}[*] Skelbime esantį nicką pasigaus jeigu jis parašytas ir su tarpu."
     "SSK":{
         "Title":"Skelbimų pardavimo info | by [@Spiff~]",
         "WindowSize":{
