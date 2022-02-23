@@ -8,7 +8,8 @@
         "SSK":"2022-02-30"
         },
     "Flags":{
-        "isGameWindowForeground":true
+        "isGameWindowForeground":true,
+        "inVehicleAsPassenger":false
         },
     "Debug":false
     },
@@ -21,7 +22,8 @@
         "SSK":"2022-02-10"
         },
     "Flags":{
-        "isGameWindowForeground":false
+        "isGameWindowForeground":false,
+        "inVehicleAsPassenger":false
         },
     "Debug":true
     },
@@ -34,7 +36,8 @@
         "SSK":"2022-02-30"
         },
     "Flags":{
-        "isGameWindowForeground":false
+        "isGameWindowForeground":false,
+        "inVehicleAsPassenger":false
         },
     "Debug":false
     },
@@ -47,7 +50,8 @@
         "SSK":"2022-02-30"
         },
     "Flags":{
-        "isGameWindowForeground":false
+        "isGameWindowForeground":false,
+        "inVehicleAsPassenger":false
         },
     "Debug":false
     },
