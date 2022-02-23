@@ -12,7 +12,7 @@
         },
     "Debug":false
     },
-"Kenji_Yamamoto":{
+"Vilius_Nitro":{
     "Premium":{
         "SkalbenkePed":"2022-02-30",
         "SkalbenkeVeh":"2022-02-30",
@@ -23,6 +23,6 @@
     "Flags":{
         "isGameWindowForeground":false
         },
-    "Debug":true
+    "Debug":false
     }
 }
