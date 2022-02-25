@@ -1,7 +1,7 @@
 {
 "Global":{
-    "NaujausiaVersija":"0.214",
-    "DownloadLink":"https://cdn.discordapp.com/attachments/491588264168390656/946538615998152714/Rep_Bind-214.luac",
+    "NaujausiaVersija":"0.215",
+    "DownloadLink":"",
     "Beta":true,
     "UpdateNotification":false,
     "AutoUpdate":false
@@ -75,6 +75,8 @@
 {e3c28f}[0.213] {e38fe3}[*] {a9c4e4}\"Global\" nill/bollen value.
 {000000}.           {e38fe3}[*] {a9c4e4}storeCarCharIsIn unhalted exception.
 {000000}.           {e38fe3}[*] {a9c4e4}SetNextWindowSize bad imVeh2 argument. 
+{e3c28f}[0.215] {e38fe3}[*] {a9c4e4}C++ exception [C]: in function \'run\'.
+{000000}.           {e38fe3}[*] {a9c4e4}grammar fix \"premissions\" to \"permissions\".
 ",
     "SSK":{
         "Title":"Skelbimų pardavimo info | by [@Spiff~]",
