@@ -1,7 +1,7 @@
 {
 "Global":{
     "NaujausiaVersija":"0.215",
-    "DownloadLink":"",
+    "DownloadLink":"ner",
     "Beta":true,
     "UpdateNotification":false,
     "AutoUpdate":false
