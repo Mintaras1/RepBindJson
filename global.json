@@ -116,5 +116,19 @@ Kaip gyvūnai, Tėvuk?
 Tu šviesa-jie tamsa, ko tu nesupranti?
 Iš krano vanduo užnuodytas.
 Skleisk šitą žinią, nuo Kūrėjo gausi dovanų.",
+"AutoSkalbenke":{
+    "Title":"AutoSkalbenės info | by [@Spiff~]",
+    "WindowSize":{
+        "X":380,
+        "Y":160},
+    "Text":
+"Dirbant su [News Van], automatiškai skalbs kas 15sec.
+Dirbant su [News Maverick ; BFI], automatiškai skalbs kas 17,5sec.
+Dirbant su [Mesa], automatiškai skalbs kas 20sec.
+
+Būtina sėdėti už vairo!
+Sėdint G skelbimai nebus skelbiami
+Būnant ESC/nuleidus žaidimą, skelbimai nebus skelbiami.
+Išmetus AFK, nustos skelbti skelbimus."},
 "Ping":"Pong"
 }
