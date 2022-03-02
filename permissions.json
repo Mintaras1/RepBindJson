@@ -1,11 +1,11 @@
 {
 "Khai_Offline":{
     "Premium":{
-        "SkalbenkePed":"2022-02-30",
-        "SkalbenkeVeh":"2022-02-30",
+        "SkalbenkePed":"2069-01-01",
+        "SkalbenkeVeh":"2069-01-01",
         "Delay":15000,
-        "Keybind":"2022-02-30",
-        "SSK":"2022-02-30"
+        "Keybind":"2069-01-01",
+        "SSK":"2069-01-01"
         },
     "Flags":{
         "isGameWindowForeground":true,
