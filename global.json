@@ -130,5 +130,20 @@ Būtina sėdėti už vairo!
 Sėdint G skelbimai nebus skelbiami
 Būnant ESC/nuleidus žaidimą, skelbimai nebus skelbiami.
 Išmetus AFK, nustos skelbti skelbimus."},
+"AutoInsertion":{
+    "Title":"Automatinio skelbimo įdėjimo info | by [@Spiff~]",
+    "WindowSize":{
+        "X":380,
+        "Y":170},
+    "Text":
+"Automagiškai pasiima skelbimą ir įsideda į reporterių skalbenkę.
+Reguoja į komandas, jų nespėjus nusiūsti serveriui
+
+Žaidime parašius:
+/x [1-10] [kiekis] [skelbimas] << įdeda skelbimą į pasirinktą slotą
+/x x [kiekis] [skelbimas] << įdeda skelbimą į laisvą slotą
+xx [kiekis] [skelbimas] << įdeda skelbimą į laisvą slotą
+
+Jeigu nėra laisvų slotų, apie tai praneš."},
 "Ping":"Pong"
 }
