@@ -145,5 +145,54 @@ Reguoja į komandas, jų nespėjus nusiūsti serveriui
 xx [kiekis] [skelbimas] << įdeda skelbimą į laisvą slotą
 
 Jeigu nėra laisvų slotų, apie tai praneš."},
+"SSK_Tarifai":{
+    "Title":"SiulytiSK kainyno info | by [@Spiff~]",
+    "WindowSize":{
+        "X":470,
+        "Y":325},
+    "Text":
+"Pilnos galimos kainų komandos:
+
+/ssk [nick] [skelbimu kiekis] [Paprastas] - Paprastom kainom
+/ssk [nick] [skelbimu kiekis] [Paslaugos] - Paslaugų kainom
+/ssk [nick] [skelbimu kiekis] [Nalogas] - Nalogo kainom
+/ssk [nick] [skelbimu kiekis] [NalogasPaslaugos] - Paslauginių Nalogų kainom
+/ssk [nick] [skelbimu kiekis] [Naujokas] - Naujoko kainom
+
+
+Taippat, yra ir komandų trumpiniai:
+
+/ssk [nick] [skelbimu kiekis] [ ] - Paprastom kainom
+/ssk [nick] [skelbimu kiekis] [Pas] - Paslaugų kainom
+/ssk [nick] [skelbimu kiekis] [Nal] - Nalogo kainom
+/ssk [nick] [skelbimu kiekis] [NP] - Paslauginių Nalogų kainom
+/ssk [nick] [skelbimu kiekis] [New] - Naujoko kainom
+
+
+Vietoj žaidėjo nick, galima rašyti ID
+Vieneto kainą pakeis į pilą kainą (Forumulė: [Skelbimų kiekis] * [Vieneto kaina])"},
+"SSK":{
+    "Title":"Skelbimų pardavimo info | by [@Spiff~]",
+    "WindowSize":{
+        "X":350,
+        "Y":280},
+    "Text":
+"Siūlant pirkti skelbimus, vietoj pilnos kainos, rašyti vieneto.
+Reguoja į komandas, ją nespėjus nusiūsti serveriui
+
+Žaidime parašius vieną iš šių komandų:
+/ssk [nick] [skelbimu kiekis] [vieneto kaina]
+Vieneto kainą pakeičia į galutinę.
+
+Pvz:
+Jūs parašte komandą:
+/ssk sliuuzas 200 5000
+
+Serveris gauna komandą jog rašėte:
+/siulytisk sliuuzas 200 1000000
+
+
+Veikia siūlant ir su \"k\" (1k = 1000).
+Vietoj nicko, galima rašyt ir žaidėjo id."},
 "Ping":"Pong"
 }
