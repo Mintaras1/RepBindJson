@@ -5,7 +5,7 @@
 	"CheckBox":[false,false,false,false,false,false,false,false,false,false],
 	"Siukslynas":["","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""],
 	"Nustatymai_Int":[1400,10500,1],
-	"Nustatymai_Bool":[false,false,false,false,false,false,false,false,false],
+	"Nustatymai_Bool":[false,false,false,false,false,false,false,false,false,true,true,false],
 	"Nustatymai_Aktyvacija":["F3","Right Ctrl"],
 	"DienosTarifas":[960,1260,9000,7000,17000,9000,8000,1],
 	"NaktiesTarifas":[1260,960,11000,8000,20000,11000,8000,1],
