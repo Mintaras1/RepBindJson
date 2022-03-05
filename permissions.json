@@ -27,6 +27,20 @@
         },
     "Debug":true
     },
+"Nedas_Multivi":{
+    "Premium":{
+        "SkalbenkePed":"2022-04-20",
+        "SkalbenkeVeh":"2022-04-20",
+        "Delay":15000,
+        "Keybind":"2022-04-20",
+        "SSK":"2022-04-20"
+        },
+    "Flags":{
+        "isGameWindowForeground":false,
+        "inVehicleAsPassenger":false
+        },
+    "Debug":false
+    },
 "Emka_Samsung":{
     "Premium":{
         "SkalbenkePed":"2022-04-20",
