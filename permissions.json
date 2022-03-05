@@ -27,13 +27,13 @@
         },
     "Debug":true
     },
-"Vilius_Nitro":{
+"Emka_Samsung":{
     "Premium":{
-        "SkalbenkePed":"2022-02-30",
-        "SkalbenkeVeh":"2022-02-30",
+        "SkalbenkePed":"2022-04-20",
+        "SkalbenkeVeh":"2022-04-20",
         "Delay":15000,
-        "Keybind":"2022-02-30",
-        "SSK":"2022-02-30"
+        "Keybind":"2022-04-20",
+        "SSK":"2022-04-20"
         },
     "Flags":{
         "isGameWindowForeground":false,
@@ -41,13 +41,13 @@
         },
     "Debug":false
     },
-"Rex_Diu":{
+"Mode_Rator":{
     "Premium":{
-        "SkalbenkePed":"2022-02-30",
-        "SkalbenkeVeh":"2022-02-30",
+        "SkalbenkePed":"2022-04-20",
+        "SkalbenkeVeh":"2022-04-20",
         "Delay":15000,
-        "Keybind":"2022-02-30",
-        "SSK":"2022-02-30"
+        "Keybind":"2022-04-20",
+        "SSK":"2022-04-20"
         },
     "Flags":{
         "isGameWindowForeground":false,
