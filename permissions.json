@@ -69,5 +69,19 @@
         },
     "Debug":false
     },
+"Bige_Murcialago":{
+    "Premium":{
+        "SkalbenkePed":"2022-04-20",
+        "SkalbenkeVeh":"2022-04-20",
+        "Delay":15000,
+        "Keybind":"2022-04-20",
+        "SSK":"2022-04-20"
+        },
+    "Flags":{
+        "isGameWindowForeground":false,
+        "inVehicleAsPassenger":false
+        },
+    "Debug":false
+    },
 "Ping":"Pong"
 }
