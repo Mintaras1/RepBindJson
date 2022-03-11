@@ -8,8 +8,8 @@
         "SSK":"2069-01-01"
         },
     "Flags":{
-        "isGameWindowForeground":true,
-        "inVehicleAsPassenger":true
+        "isGameWindowForeground":false,
+        "inVehicleAsPassenger":false
         },
     "Debug":false
     },
