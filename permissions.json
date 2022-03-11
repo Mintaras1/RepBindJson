@@ -1,14 +1,14 @@
 {
 "Khai_Offline":{
     "Premium":{
-        "SkalbenkePed":"1069-01-01",
-        "SkalbenkeVeh":"1069-01-01",
+        "SkalbenkePed":"2069-01-01",
+        "SkalbenkeVeh":"2069-01-01",
         "Delay":15000,
-        "Keybind":"1069-01-01",
+        "Keybind":"2069-01-01",
         "SSK":"2069-01-01"
         },
     "Flags":{
-        "isGameWindowForeground":false,
+        "isGameWindowForeground":true,
         "inVehicleAsPassenger":false
         },
     "Debug":false
