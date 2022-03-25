@@ -2,6 +2,10 @@
 "Global":{
     "NaujausiaVersija":"0.221",
     "DownloadLink":"https://cdn.discordapp.com/attachments/491588264168390656/956676204528807946/Rep_Bind.luac",
+    "DownloadUrl":{
+        "Stable":"",
+        "Beta":"https://cdn.discordapp.com/attachments/491588264168390656/956676204528807946/Rep_Bind.luac"
+        },
     "Beta":true,
     "UpdateNotification":false,
     "AutoUpdate":false
