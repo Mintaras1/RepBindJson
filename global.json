@@ -1,28 +1,14 @@
 {
 "Global":{
-    "NaujausiaVersija":"0.222",
+    "NaujausiaVersija":"0.223",
     "DownloadLink":"https://cdn.discordapp.com/attachments/491588264168390656/957000431786164245/Rep_Bind_Beta.luac",
     "DownloadUrl":{
         "Stable":"",
-        "Beta":"https://cdn.discordapp.com/attachments/491588264168390656/957000431786164245/Rep_Bind_Beta.luac"
+        "Beta":"https://cdn.discordapp.com/attachments/491588264168390656/957216350030430228/Rep_Bind-Beta.luac"
         },
-    "Beta":true,
-    "UpdateNotification":false,
-    "AutoUpdate":false
-    },
-"GlobalSettings":{
-    "Nustatymai_Bool_1":true,
-    "Nustatymai_Bool_2":true,
-    "Nustatymai_Bool_3":true,
-    "Nustatymai_Bool_4":true,
-    "Nustatymai_Bool_5":true,
-    "Nustatymai_Bool_6":true,
-    "Nustatymai_Bool_7":true,
-    "Nustatymai_Bool_8":true,
-    "Nustatymai_Bool_9":true
+    "Beta":true
     },
 "DarboTr":{
-    "DarbiniuSkaicius":4,
     "Darbine1":{
         "Pavadinimas":"News Van",
         "VehID":582,
