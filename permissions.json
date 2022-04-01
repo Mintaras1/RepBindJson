@@ -41,27 +41,13 @@
         },
     "Debug":false
     },
-"Suo_Iksas":{
+"Matas_Num":{
     "Premium":{
-        "SkalbenkePed":"2022-04-20",
-        "SkalbenkeVeh":"2022-04-20",
+        "SkalbenkePed":"2023-01-01",
+        "SkalbenkeVeh":"2023-01-01",
         "Delay":11000,
-        "Keybind":"2022-04-20",
-        "SSK":"2022-04-20"
-        },
-    "Flags":{
-        "isGameWindowForeground":false,
-        "inVehicleAsPassenger":false
-        },
-    "Debug":false
-    },
-"Ernest_Bumbul":{
-    "Premium":{
-        "SkalbenkePed":"2022-04-20",
-        "SkalbenkeVeh":"2022-04-20",
-        "Delay":15000,
-        "Keybind":"2022-04-20",
-        "SSK":"2022-04-20"
+        "Keybind":"2023-01-01",
+        "SSK":"2023-01-01"
         },
     "Flags":{
         "isGameWindowForeground":false,
