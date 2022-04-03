@@ -2,7 +2,7 @@
 	"Kiekis":[0,0,0,0,0,0,0,0,0,0],
 	"Paskelbta":[0,0,0,0,0,0,0,0,0,0],
 	"Tekstas":["","","","","","","","","",""],
-	"CheckBox":[false,false,false,false,false,false,false,false,false,false,false],
+	"CheckBox":[false,false,false,false,false,false,false,false,false,false,false,false],
 	"Siukslynas":["","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""],
 	"Nustatymai_Int":[1400,10500],
 	"Nustatymai_Bool":[false,false,false,false,false,false,false,false,false,true,true,false,false,false,false],
