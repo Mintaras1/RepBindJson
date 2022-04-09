@@ -39,6 +39,10 @@ Transportui:
 [V_P] Perka [Mašiną/Motociklą/Laivą/Dviratį][Rida][Bagažinė][Būtina][Papildoma][Kaina]
 [V_P] Parduoda [Mašiną/Motociklą/Laivą/Dviratį][Rida][Bagažinė][Papildoma][Kaina]
 
+Tr. priemonės numeriams:
+[V_P] Parduoda [Numerius][Pavadinimas][Papildoma][Kaina/Pasiūlyta]
+[V_P] Perka [Numerius][Būtina][Papildoma][Kaina]
+
 Paslaugos:
 [V_P] Kelia [Rida][Papildoma][Kaina]
 [V_P] Iesko [Ridos kelejo][Masina][Būtina][Papildoma][Kaina]
