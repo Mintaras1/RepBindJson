@@ -1,10 +1,10 @@
 {
 "Global":{
-    "NaujausiaVersija":"0.227",
+    "NaujausiaVersija":"0.228",
     "DownloadLink":"https://cdn.discordapp.com/attachments/491588264168390656/957000431786164245/Rep_Bind_Beta.luac",
     "DownloadUrl":{
         "Stable":"",
-        "Beta":"https://cdn.discordapp.com/attachments/491588264168390656/960271698991656980/Rep_Bind-Beta-227.luac"
+        "Beta":"https://cdn.discordapp.com/attachments/491588264168390656/965654410367741952/Rep_Bind-Beta.luac"
         },
     "Beta":true
     },
