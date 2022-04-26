@@ -71,11 +71,11 @@
     },
 "Tony_Sane":{
     "Premium":{
-        "SkalbenkePed":"2022-04-03",
+        "SkalbenkePed":"2022-05-03",
         "SkalbenkeVeh":"2022-05-03",
         "Delay":15000,
         "Keybind":"2022-04-03",
-        "SSK":"2022-04-17"
+        "SSK":"2022-05-03"
         },
     "Flags":{
         "isGameWindowForeground":false,
