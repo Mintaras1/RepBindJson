@@ -87,7 +87,7 @@
     "Premium":{
         "SkalbenkePed":"2022-06-01",
         "SkalbenkeVeh":"2022-06-01",
-        "Delay":14000,
+        "Delay":11000,
         "Keybind":"2022-06-01",
         "SSK":"2022-06-01"
         },
