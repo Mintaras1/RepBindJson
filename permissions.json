@@ -97,5 +97,19 @@
         },
     "Debug":false
     },
+"Karatistas_Zagis":{
+    "Premium":{
+        "SkalbenkePed":"2022-05-28",
+        "SkalbenkeVeh":"2022-05-28",
+        "Delay":17500,
+        "Keybind":"2022-05-19",
+        "SSK":"2022-05-28"
+        },
+    "Flags":{
+        "isGameWindowForeground":false,
+        "inVehicleAsPassenger":false
+        },
+    "Debug":false
+    },
 "Ping":"Pong"
 }
