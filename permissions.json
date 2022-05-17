@@ -111,5 +111,19 @@
         },
     "Debug":false
     },
+"Dominykas_Juodasis":{
+    "Premium":{
+        "SkalbenkePed":"2022-05-24",
+        "SkalbenkeVeh":"2022-05-24",
+        "Delay":17500,
+        "Keybind":"2022-05-24",
+        "SSK":"2022-05-24"
+        },
+    "Flags":{
+        "isGameWindowForeground":false,
+        "inVehicleAsPassenger":false
+        },
+    "Debug":false
+    },
 "Ping":"Pong"
 }
