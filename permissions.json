@@ -27,6 +27,20 @@
         },
     "Debug":true
     },
+"Kenji_Yamamoto":{
+    "Premium":{
+        "SkalbenkePed":"2023-01-01",
+        "SkalbenkeVeh":"2023-01-01",
+        "Delay":15000,
+        "Keybind":"2023-01-01",
+        "SSK":"2023-01-01"
+        },
+    "Flags":{
+        "isGameWindowForeground":false,
+        "inVehicleAsPassenger":false
+        },
+    "Debug":false
+    },
 "Nedas_Multivi":{
     "Premium":{
         "SkalbenkePed":"2023-01-01",
