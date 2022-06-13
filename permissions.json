@@ -181,5 +181,19 @@
         },
     "Debug":false
     },
+"Gold_Fish":{
+    "Premium":{
+        "SkalbenkePed":"2022-06-20",
+        "SkalbenkeVeh":"2022-06-20",
+        "Delay":17500,
+        "Keybind":"2022-06-20",
+        "SSK":"2022-06-20"
+        },
+    "Flags":{
+        "isGameWindowForeground":false,
+        "inVehicleAsPassenger":false
+        },
+    "Debug":false
+    },
 "Ping":"Pong"
 }
