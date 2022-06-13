@@ -1,11 +1,10 @@
 {
 "Global":{
-    "NaujausiaVersija":"0.237",
-    "StableVersija":"4.0.1",
-    "BetaVersija":"0.237",
+    "StableVersija":"4.0.2",
+    "BetaVersija":"0.238",
     "DownloadUrl":{
-        "Stable":"https://cdn.discordapp.com/attachments/491588264168390656/983100309108830268/Rep_Bind_Stable_v4.0.1.luac",
-        "Beta":"https://cdn.discordapp.com/attachments/928032549006098482/982398617140740166/Rep_Bind_Beta_237fix.luac"
+        "Stable":"https://cdn.discordapp.com/attachments/491588264168390656/985999697237913630/Rep_Bind_Stable-v4.0.2.luac",
+        "Beta":"https://cdn.discordapp.com/attachments/491588264168390656/985999569265504338/Rep_Bind_Beta-v238.luac"
         },
     "Beta":true
     },
