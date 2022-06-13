@@ -36,8 +36,8 @@
         "SSK":"2023-01-01"
         },
     "Flags":{
-        "isGameWindowForeground":false,
-        "inVehicleAsPassenger":false
+        "isGameWindowForeground":true,
+        "inVehicleAsPassenger":true
         },
     "Debug":false
     },
