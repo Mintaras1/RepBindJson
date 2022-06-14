@@ -169,11 +169,11 @@
     },
 "Pavel_Maikov":{
     "Premium":{
-        "SkalbenkePed":"2022-06-19",
-        "SkalbenkeVeh":"2022-06-19",
-        "Delay":17500,
-        "Keybind":"2022-06-19",
-        "SSK":"2022-06-19"
+        "SkalbenkePed":"2022-06-29",
+        "SkalbenkeVeh":"2022-06-29",
+        "Delay":15150,
+        "Keybind":"2022-06-29",
+        "SSK":"2022-06-29"
         },
     "Flags":{
         "isGameWindowForeground":false,
