@@ -57,11 +57,11 @@
     },
 "Suo_Iksas":{
     "Premium":{
-        "SkalbenkePed":"2023-01-01",
-        "SkalbenkeVeh":"2023-01-01",
-        "Delay":11000,
-        "Keybind":"2023-01-01",
-        "SSK":"2023-01-01"
+        "SkalbenkePed":"2023-01-08",
+        "SkalbenkeVeh":"2023-01-08",
+        "Delay":11500,
+        "Keybind":"2023-01-08",
+        "SSK":"2023-01-08"
         },
     "Flags":{
         "isGameWindowForeground":false,
@@ -169,11 +169,11 @@
     },
 "Pavel_Maikov":{
     "Premium":{
-        "SkalbenkePed":"2022-06-29",
-        "SkalbenkeVeh":"2022-06-29",
+        "SkalbenkePed":"2022-07-06",
+        "SkalbenkeVeh":"2022-07-06",
         "Delay":15150,
-        "Keybind":"2022-06-29",
-        "SSK":"2022-06-29"
+        "Keybind":"2022-07-06",
+        "SSK":"2022-07-06"
         },
     "Flags":{
         "isGameWindowForeground":false,
@@ -188,6 +188,20 @@
         "Delay":17500,
         "Keybind":"2022-06-20",
         "SSK":"2022-06-20"
+        },
+    "Flags":{
+        "isGameWindowForeground":false,
+        "inVehicleAsPassenger":false
+        },
+    "Debug":false
+    },
+"John_Heredity":{
+    "Premium":{
+        "SkalbenkePed":"2022-06-23",
+        "SkalbenkeVeh":"2022-06-23",
+        "Delay":17500,
+        "Keybind":"2022-06-23",
+        "SSK":"2022-06-23"
         },
     "Flags":{
         "isGameWindowForeground":false,
