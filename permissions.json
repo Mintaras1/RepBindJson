@@ -249,6 +249,8 @@
         "isGameWindowForeground":false,
         "inVehicleAsPassenger":false
         },
+    "Debug":false
+    },
 "Patty_Mills":{
     "Premium":{
         "SkalbenkePed":"2022-06-24",
