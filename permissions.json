@@ -237,5 +237,31 @@
         },
     "Debug":false
     },
+"Jeremy_Dmax":{
+    "Premium":{
+        "SkalbenkePed":"2022-06-24",
+        "SkalbenkeVeh":"2022-06-24",
+        "Delay":17500,
+        "Keybind":"2022-06-24",
+        "SSK":"2022-06-24"
+        },
+    "Flags":{
+        "isGameWindowForeground":false,
+        "inVehicleAsPassenger":false
+        },
+"Patty_Mills":{
+    "Premium":{
+        "SkalbenkePed":"2022-06-24",
+        "SkalbenkeVeh":"2022-06-24",
+        "Delay":17500,
+        "Keybind":"2022-06-24",
+        "SSK":"2022-06-24"
+        },
+    "Flags":{
+        "isGameWindowForeground":false,
+        "inVehicleAsPassenger":false
+        },
+    "Debug":false
+    },
 "Ping":"Pong"
 }
