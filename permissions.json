@@ -267,11 +267,11 @@
     },
 "Brian_Johnsonn":{
     "Premium":{
-        "SkalbenkePed":"2022-07-01",
+        "SkalbenkePed":"2022-07-31",
         "SkalbenkeVeh":"2022-06-24",
         "Delay":17500,
         "Keybind":"2022-06-24",
-        "SSK":"2022-07-01"
+        "SSK":"2022-07-31"
         },
     "Flags":{
         "isGameWindowForeground":false,
