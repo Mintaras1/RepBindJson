@@ -293,5 +293,19 @@
         },
     "Debug":false
     },
+"Franklin_Niger":{
+    "Premium":{
+        "SkalbenkePed":"2022-06-27",
+        "SkalbenkeVeh":"2022-06-27",
+        "Delay":17500,
+        "Keybind":"2022-06-27",
+        "SSK":"2022-06-27"
+        },
+    "Flags":{
+        "isGameWindowForeground":false,
+        "inVehicleAsPassenger":true
+        },
+    "Debug":false
+    },
 "Ping":"Pong"
 }
