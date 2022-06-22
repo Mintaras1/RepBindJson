@@ -289,7 +289,7 @@
         },
     "Flags":{
         "isGameWindowForeground":false,
-        "inVehicleAsPassenger":true
+        "inVehicleAsPassenger":false
         },
     "Debug":false
     },
@@ -303,7 +303,21 @@
         },
     "Flags":{
         "isGameWindowForeground":false,
-        "inVehicleAsPassenger":true
+        "inVehicleAsPassenger":false
+        },
+    "Debug":false
+    },
+"Eden_Wayy":{
+    "Premium":{
+        "SkalbenkePed":"2022-06-29",
+        "SkalbenkeVeh":"2022-06-29",
+        "Delay":17500,
+        "Keybind":"2022-06-29",
+        "SSK":"2022-06-29"
+        },
+    "Flags":{
+        "isGameWindowForeground":false,
+        "inVehicleAsPassenger":false
         },
     "Debug":false
     },
