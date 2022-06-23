@@ -197,11 +197,11 @@
     },
 "John_Heredity":{
     "Premium":{
-        "SkalbenkePed":"2022-06-23",
+        "SkalbenkePed":"2022-07-07",
         "SkalbenkeVeh":"2022-06-23",
         "Delay":17500,
         "Keybind":"2022-06-23",
-        "SSK":"2022-06-23"
+        "SSK":"2022-07-07"
         },
     "Flags":{
         "isGameWindowForeground":false,
