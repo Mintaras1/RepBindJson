@@ -321,5 +321,19 @@
         },
     "Debug":false
     },
+"Donatas_Bmww":{
+    "Premium":{
+        "SkalbenkePed":"2022-07-03",
+        "SkalbenkeVeh":"2022-07-03",
+        "Delay":17500,
+        "Keybind":"2022-07-03",
+        "SSK":"2022-07-03"
+        },
+    "Flags":{
+        "isGameWindowForeground":false,
+        "inVehicleAsPassenger":false
+        },
+    "Debug":false
+    },
 "Ping":"Pong"
 }
