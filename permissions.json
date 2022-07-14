@@ -332,6 +332,18 @@
     "Flags":{
         "isGameWindowForeground":false,
         "inVehicleAsPassenger":false
+        },},
+"Niko_Vodkito":{
+    "Premium":{
+        "SkalbenkePed":"2022-07-28",
+        "SkalbenkeVeh":"2022-07-28",
+        "Delay":17500,
+        "Keybind":"2022-07-28",
+        "SSK":"2022-07-28"
+        },
+    "Flags":{
+        "isGameWindowForeground":false,
+        "inVehicleAsPassenger":false
         },
     "Debug":false
     },
