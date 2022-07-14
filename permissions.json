@@ -332,7 +332,9 @@
     "Flags":{
         "isGameWindowForeground":false,
         "inVehicleAsPassenger":false
-        },},
+        },
+    "Debug":false
+    },
 "Niko_Vodkito":{
     "Premium":{
         "SkalbenkePed":"2022-07-28",
