@@ -337,11 +337,11 @@
     },
 "Niko_Vodkito":{
     "Premium":{
-        "SkalbenkePed":"2022-07-28",
-        "SkalbenkeVeh":"2022-07-28",
+        "SkalbenkePed":"2022-08-11",
+        "SkalbenkeVeh":"2022-08-11",
         "Delay":17500,
         "Keybind":"2022-07-28",
-        "SSK":"2022-07-28"
+        "SSK":"2022-08-11"
         },
     "Flags":{
         "isGameWindowForeground":false,
