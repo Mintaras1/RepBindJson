@@ -349,5 +349,19 @@
         },
     "Debug":false
     },
+"Wolf_Rokas":{
+    "Premium":{
+        "SkalbenkePed":"2022-09-01",
+        "SkalbenkeVeh":"2022-09-01",
+        "Delay":17500,
+        "Keybind":"2022-08-02",
+        "SSK":"2022-08-02"
+        },
+    "Flags":{
+        "isGameWindowForeground":false,
+        "inVehicleAsPassenger":false
+        },
+    "Debug":false
+    },
 "Ping":"Pong"
 }
