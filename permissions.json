@@ -363,5 +363,19 @@
         },
     "Debug":false
     },
+"Lexii_Aragon":{
+    "Premium":{
+        "SkalbenkePed":"2022-09-09",
+        "SkalbenkeVeh":"2022-09-09",
+        "Delay":17500,
+        "Keybind":"2022-08-20",
+        "SSK":"2022-09-09"
+        },
+    "Flags":{
+        "isGameWindowForeground":false,
+        "inVehicleAsPassenger":false
+        },
+    "Debug":false
+    },
 "Ping":"Pong"
 }
