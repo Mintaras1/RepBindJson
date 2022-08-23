@@ -377,5 +377,19 @@
         },
     "Debug":false
     },
+"Tomas_Lambo":{
+    "Premium":{
+        "SkalbenkePed":"2022-08-30",
+        "SkalbenkeVeh":"2022-08-30",
+        "Delay":17500,
+        "Keybind":"2022-08-30",
+        "SSK":"2022-08-30"
+        },
+    "Flags":{
+        "isGameWindowForeground":false,
+        "inVehicleAsPassenger":false
+        },
+    "Debug":false
+    },
 "Ping":"Pong"
 }
