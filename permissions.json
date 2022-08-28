@@ -391,5 +391,19 @@
         },
     "Debug":false
     },
+"Dievo_Igaliotinis":{
+    "Premium":{
+        "SkalbenkePed":"2022-09-04",
+        "SkalbenkeVeh":"2022-09-04",
+        "Delay":17500,
+        "Keybind":"2022-09-04",
+        "SSK":"2022-09-04"
+        },
+    "Flags":{
+        "isGameWindowForeground":false,
+        "inVehicleAsPassenger":false
+        },
+    "Debug":false
+    },
 "Ping":"Pong"
 }
