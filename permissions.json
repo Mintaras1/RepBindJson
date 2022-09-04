@@ -275,7 +275,7 @@
         },
     "Flags":{
         "isGameWindowForeground":false,
-        "inVehicleAsPassenger":true
+        "inVehicleAsPassenger":false
         },
     "Debug":false
     },
