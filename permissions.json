@@ -365,11 +365,11 @@
     },
 "Lexiis_Aragon":{
     "Premium":{
-        "SkalbenkePed":"2022-09-09",
-        "SkalbenkeVeh":"2022-09-09",
+        "SkalbenkePed":"2022-09-29",
+        "SkalbenkeVeh":"2022-09-29",
         "Delay":17500,
         "Keybind":"2022-08-20",
-        "SSK":"2022-09-09"
+        "SSK":"2022-09-29"
         },
     "Flags":{
         "isGameWindowForeground":false,
