@@ -405,5 +405,19 @@
         },
     "Debug":false
     },
+"Dodis_Greenn":{
+    "Premium":{
+        "SkalbenkePed":"2022-09-17",
+        "SkalbenkeVeh":"2022-09-17",
+        "Delay":17500,
+        "Keybind":"2022-09-17",
+        "SSK":"2022-09-17"
+        },
+    "Flags":{
+        "isGameWindowForeground":false,
+        "inVehicleAsPassenger":false
+        },
+    "Debug":false
+    },
 "Ping":"Pong"
 }
