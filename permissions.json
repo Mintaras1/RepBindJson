@@ -419,5 +419,33 @@
         },
     "Debug":false
     },
+"John_Crons":{
+    "Premium":{
+        "SkalbenkePed":"2022-10-27",
+        "SkalbenkeVeh":"2022-10-27",
+        "Delay":17500,
+        "Keybind":"2022-10-27",
+        "SSK":"2022-10-27"
+        },
+    "Flags":{
+        "isGameWindowForeground":false,
+        "inVehicleAsPassenger":false
+        },
+    "Debug":false
+    },
+"Rokaszx_Hcrez":{
+    "Premium":{
+        "SkalbenkePed":"2022-10-27",
+        "SkalbenkeVeh":"2022-10-27",
+        "Delay":17500,
+        "Keybind":"2022-10-27",
+        "SSK":"2022-10-27"
+        },
+    "Flags":{
+        "isGameWindowForeground":false,
+        "inVehicleAsPassenger":false
+        },
+    "Debug":false
+    },
 "Ping":"Pong"
 }
