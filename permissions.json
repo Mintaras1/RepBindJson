@@ -447,5 +447,19 @@
         },
     "Debug":false
     },
+"Osvaldas_Bober":{
+    "Premium":{
+        "SkalbenkePed":"2022-12-11",
+        "SkalbenkeVeh":"2022-12-11",
+        "Delay":17500,
+        "Keybind":"2022-12-04",
+        "SSK":"2022-12-04"
+        },
+    "Flags":{
+        "isGameWindowForeground":false,
+        "inVehicleAsPassenger":false
+        },
+    "Debug":false
+    },
 "Ping":"Pong"
 }
