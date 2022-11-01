@@ -461,5 +461,19 @@
         },
     "Debug":false
     },
+"Ekvo_Mallboro":{
+    "Premium":{
+        "SkalbenkePed":"2022-11-08",
+        "SkalbenkeVeh":"2022-11-08",
+        "Delay":17500,
+        "Keybind":"2022-11-08",
+        "SSK":"2022-11-08"
+        },
+    "Flags":{
+        "isGameWindowForeground":false,
+        "inVehicleAsPassenger":false
+        },
+    "Debug":false
+    },
 "Ping":"Pong"
 }
