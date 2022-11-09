@@ -475,5 +475,33 @@
         },
     "Debug":false
     },
+"Cracked_Skull":{
+    "Premium":{
+        "SkalbenkePed":"2022-12-09",
+        "SkalbenkeVeh":"2022-12-09",
+        "Delay":11000,
+        "Keybind":"2022-12-09",
+        "SSK":"2022-12-09"
+        },
+    "Flags":{
+        "isGameWindowForeground":false,
+        "inVehicleAsPassenger":false
+        },
+    "Debug":false
+    },
+"Deividas_Gugugi":{
+    "Premium":{
+        "SkalbenkePed":"2022-11-16",
+        "SkalbenkeVeh":"2022-11-16",
+        "Delay":17500,
+        "Keybind":"2022-11-16",
+        "SSK":"2022-11-16"
+        },
+    "Flags":{
+        "isGameWindowForeground":false,
+        "inVehicleAsPassenger":false
+        },
+    "Debug":false
+    },
 "Ping":"Pong"
 }
