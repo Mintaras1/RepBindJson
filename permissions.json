@@ -449,11 +449,11 @@
     },
 "Osvaldas_Bober":{
     "Premium":{
-        "SkalbenkePed":"2022-11-19",
-        "SkalbenkeVeh":"2022-11-19",
+        "SkalbenkePed":"2022-11-27",
+        "SkalbenkeVeh":"2022-11-27",
         "Delay":17500,
-        "Keybind":"2022-11-19",
-        "SSK":"2022-11-19"
+        "Keybind":"2022-11-27",
+        "SSK":"2022-11-27"
         },
     "Flags":{
         "isGameWindowForeground":false,
