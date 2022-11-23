@@ -503,5 +503,19 @@
         },
     "Debug":false
     },
+"Black_Bacardi":{
+    "Premium":{
+        "SkalbenkePed":"2022-11-30",
+        "SkalbenkeVeh":"2022-11-30",
+        "Delay":17500,
+        "Keybind":"2022-11-30",
+        "SSK":"2022-11-30"
+        },
+    "Flags":{
+        "isGameWindowForeground":false,
+        "inVehicleAsPassenger":false
+        },
+    "Debug":false
+    },
 "Ping":"Pong"
 }
