@@ -517,5 +517,19 @@
         },
     "Debug":false
     },
+"Faustas_Gerulis":{
+    "Premium":{
+        "SkalbenkePed":"2022-12-07",
+        "SkalbenkeVeh":"2022-12-07",
+        "Delay":17500,
+        "Keybind":"2022-12-07",
+        "SSK":"2022-12-07"
+        },
+    "Flags":{
+        "isGameWindowForeground":false,
+        "inVehicleAsPassenger":false
+        },
+    "Debug":false
+    },
 "Ping":"Pong"
 }
