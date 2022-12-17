@@ -1,12 +1,5 @@
 {
-"Khai_Offline":{
-    "Premium":{
-        "SkalbenkePed":"2069-01-01",
-        "SkalbenkeVeh":"2069-01-01",
-        "Delay":15000,
-        "Keybind":"2069-01-01",
-        "SSK":"2069-01-01"
-        },
+"Khai_Offline":{a
     "Flags":{
         "isGameWindowForeground":true,
         "inVehicleAsPassenger":true
@@ -552,6 +545,20 @@
         "Delay":17500,
         "Keybind":"2022-12-07",
         "SSK":"2023-02-07"
+        },
+    "Flags":{
+        "isGameWindowForeground":false,
+        "inVehicleAsPassenger":false
+        },
+    "Debug":false
+    },
+"Allex_Style":{
+    "Premium":{
+        "SkalbenkePed":"2069-01-01",
+        "SkalbenkeVeh":"2069-01-01",
+        "Delay":17500,
+        "Keybind":"2069-01-01",
+        "SSK":"2069-01-01"
         },
     "Flags":{
         "isGameWindowForeground":false,
