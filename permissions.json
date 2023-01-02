@@ -71,11 +71,11 @@
     },
 "Bige_Murcialago":{
     "Premium":{
-        "SkalbenkePed":"2023-01-01",
-        "SkalbenkeVeh":"2023-01-01",
+        "SkalbenkePed":"2069-01-01",
+        "SkalbenkeVeh":"2069-01-01",
         "Delay":15000,
-        "Keybind":"2023-01-01",
-        "SSK":"2023-01-01"
+        "Keybind":"2069-01-01",
+        "SSK":"2069-01-01"
         },
     "Flags":{
         "isGameWindowForeground":false,
