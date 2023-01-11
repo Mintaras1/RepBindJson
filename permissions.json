@@ -587,5 +587,19 @@
         },
     "Debug":false
     },
+"Tadas_Kelmee":{
+    "Premium":{
+        "SkalbenkePed":"2023-01-25",
+        "SkalbenkeVeh":"2023-01-25",
+        "Delay":17500,
+        "Keybind":"2023-01-25",
+        "SSK":"2023-01-25"
+        },
+    "Flags":{
+        "isGameWindowForeground":false,
+        "inVehicleAsPassenger":false
+        },
+    "Debug":false
+    },
 "Ping":"Pong"
 }
