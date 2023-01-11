@@ -601,5 +601,19 @@
         },
     "Debug":false
     },
+"Ponas_Senukas":{
+    "Premium":{
+        "SkalbenkePed":"2023-01-18",
+        "SkalbenkeVeh":"2023-01-18",
+        "Delay":17500,
+        "Keybind":"2023-01-18",
+        "SSK":"2023-01-18"
+        },
+    "Flags":{
+        "isGameWindowForeground":false,
+        "inVehicleAsPassenger":false
+        },
+    "Debug":false
+    },
 "Ping":"Pong"
 }
