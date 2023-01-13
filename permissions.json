@@ -615,5 +615,19 @@
         },
     "Debug":false
     },
+"Kevin_Harris":{
+    "Premium":{
+        "SkalbenkePed":"2023-02-20",
+        "SkalbenkeVeh":"2023-02-20",
+        "Delay":17500,
+        "Keybind":"2023-02-20",
+        "SSK":"2023-02-20"
+        },
+    "Flags":{
+        "isGameWindowForeground":false,
+        "inVehicleAsPassenger":false
+        },
+    "Debug":false
+    },
 "Ping":"Pong"
 }
