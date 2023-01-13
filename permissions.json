@@ -629,5 +629,19 @@
         },
     "Debug":false
     },
+"Electro_Liux":{
+    "Premium":{
+        "SkalbenkePed":"2023-01-20",
+        "SkalbenkeVeh":"2023-01-20",
+        "Delay":12000,
+        "Keybind":"2023-01-20",
+        "SSK":"2023-01-20"
+        },
+    "Flags":{
+        "isGameWindowForeground":false,
+        "inVehicleAsPassenger":false
+        },
+    "Debug":false
+    },
 "Ping":"Pong"
 }
