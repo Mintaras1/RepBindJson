@@ -643,5 +643,19 @@
         },
     "Debug":false
     },
+"Denisz_Foul":{
+    "Premium":{
+        "SkalbenkePed":"2023-01-22",
+        "SkalbenkeVeh":"2023-01-22",
+        "Delay":17500,
+        "Keybind":"2023-01-22",
+        "SSK":"2023-01-22"
+        },
+    "Flags":{
+        "isGameWindowForeground":false,
+        "inVehicleAsPassenger":false
+        },
+    "Debug":false
+    },
 "Ping":"Pong"
 }
