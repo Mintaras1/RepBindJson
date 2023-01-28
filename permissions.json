@@ -657,5 +657,19 @@
         },
     "Debug":false
     },
+"Deividas_Sakalauskas":{
+    "Premium":{
+        "SkalbenkePed":"2023-02-04",
+        "SkalbenkeVeh":"2023-02-04",
+        "Delay":17500,
+        "Keybind":"2023-02-04",
+        "SSK":"2023-02-04"
+        },
+    "Flags":{
+        "isGameWindowForeground":false,
+        "inVehicleAsPassenger":false
+        },
+    "Debug":false
+    },
 "Ping":"Pong"
 }
