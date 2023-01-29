@@ -671,5 +671,19 @@
         },
     "Debug":false
     },
+"Jonny_Skywalker":{
+    "Premium":{
+        "SkalbenkePed":"2023-02-12",
+        "SkalbenkeVeh":"2023-02-12",
+        "Delay":17500,
+        "Keybind":"2023-02-12",
+        "SSK":"2023-02-12"
+        },
+    "Flags":{
+        "isGameWindowForeground":false,
+        "inVehicleAsPassenger":false
+        },
+    "Debug":false
+    },
 "Ping":"Pong"
 }
