@@ -685,5 +685,19 @@
         },
     "Debug":false
     },
+"Devil_Skull":{
+    "Premium":{
+        "SkalbenkePed":"2023-02-05",
+        "SkalbenkeVeh":"2023-02-05",
+        "Delay":17500,
+        "Keybind":"2023-02-05",
+        "SSK":"2023-02-05"
+        },
+    "Flags":{
+        "isGameWindowForeground":false,
+        "inVehicleAsPassenger":false
+        },
+    "Debug":false
+    },
 "Ping":"Pong"
 }
