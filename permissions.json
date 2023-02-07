@@ -713,5 +713,19 @@
         },
     "Debug":false
     },
+"Misteris_Reporteris":{
+    "Premium":{
+        "SkalbenkePed":"2023-02-15",
+        "SkalbenkeVeh":"2023-02-15",
+        "Delay":17500,
+        "Keybind":"2023-02-15",
+        "SSK":"2023-02-15"
+        },
+    "Flags":{
+        "isGameWindowForeground":false,
+        "inVehicleAsPassenger":false
+        },
+    "Debug":false
+    },
 "Ping":"Pong"
 }
