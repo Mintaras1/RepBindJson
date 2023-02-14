@@ -32,13 +32,13 @@
         }
     },
 "FreePremium":{
-    "PremiumSkalbenkePed":false,
-    "PremiumSkalbenkeVeh":false,
-    "PremiumKeybind":false,
-    "Premium_Delay":false,
-    "PremiumSSK":false,
-    "GameForeground":false,
-    "VehPassanger":false,
+    "PremiumSkalbenkePed":true,
+    "PremiumSkalbenkeVeh":true,
+    "PremiumKeybind":true,
+    "Premium_Delay":20000,
+    "PremiumSSK":true,
+    "GameForeground":true,
+    "VehPassanger":true,
     "Debug":false
     },
 "Strukturos":
