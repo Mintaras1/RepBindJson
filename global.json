@@ -31,6 +31,16 @@
         "Delay":17500
         }
     },
+"FreePremium":{
+    "PremiumSkalbenkePed":false,
+    "PremiumSkalbenkeVeh":false,
+    "PremiumKeybind":false,
+    "Premium_Delay":false,
+    "PremiumSSK":false,
+    "GameForeground":false,
+    "VehPassanger":false,
+    "Debug":false,
+    },
 "Strukturos":
 "Namams:
 [V_P] Perka [Namą/Butą/Sklypą][Miestas][Vieta][Vidus][Spinta][Būtina][Papildoma][Kaina]
