@@ -37,7 +37,7 @@
     "PremiumSkalbenkePed":true,
     "PremiumSkalbenkeVeh":true,
     "PremiumKeybind":true,
-    "Premium_Delay":false,
+    "Premium_Delay":15000,
     "PremiumSSK":true,
     "GameForeground":true,
     "VehPassanger":true,
