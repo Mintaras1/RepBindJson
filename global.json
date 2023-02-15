@@ -34,13 +34,13 @@
         }
     },
 "FreePremium":{
-    "PremiumSkalbenkePed":false,
-    "PremiumSkalbenkeVeh":false,
-    "PremiumKeybind":false,
+    "PremiumSkalbenkePed":true,
+    "PremiumSkalbenkeVeh":true,
+    "PremiumKeybind":true,
     "Premium_Delay":false,
-    "PremiumSSK":false,
-    "GameForeground":false,
-    "VehPassanger":false,
+    "PremiumSSK":true,
+    "GameForeground":true,
+    "VehPassanger":true,
     "Debug":false
     },
 "Strukturos":
