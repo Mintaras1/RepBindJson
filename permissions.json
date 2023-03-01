@@ -687,11 +687,11 @@
     },
 "Devil_Skull":{
     "Premium":{
-        "SkalbenkePed":"2023-03-01",
-        "SkalbenkeVeh":"2023-03-01",
+        "SkalbenkePed":"2023-03-15",
+        "SkalbenkeVeh":"2023-03-15",
         "Delay":17500,
         "Keybind":"2023-03-01",
-        "SSK":"2023-03-01"
+        "SSK":"2023-03-21"
         },
     "Flags":{
         "isGameWindowForeground":false,
