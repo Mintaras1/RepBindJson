@@ -4,9 +4,9 @@
     "StableVersija":"4.1.2",
     "BetaVersija":"0.237",
     "DownloadUrl":{
-        "Stable":"https://cdn.discordapp.com/attachments/491588264168390656/1155093672501727252/Rep_Bind_Stable.luac",
+        "Stable":"https://github.com/Mintaras1/RepBindJson/raw/main/GTA-SanAndreas/moonloader/Rep%20Binder%20v4.1.2.luac",
         "Beta":"https://cdn.discordapp.com/attachments/928032549006098482/982398617140740166/Rep_Bind_Beta_237fix.luac",
-        "Force":"https://cdn.discordapp.com/attachments/491588264168390656/1101577811300462592/Rep_Bind_Stable.luac"
+        "Force":"https://github.com/Mintaras1/RepBindJson/raw/main/GTA-SanAndreas/moonloader/Rep%20Binder%20v4.1.1.luac"
         },
     "Beta":true,
     "MappDiff":0.005
