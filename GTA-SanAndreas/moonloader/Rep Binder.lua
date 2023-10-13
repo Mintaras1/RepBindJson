@@ -5,6 +5,7 @@
     > Parsiunčia "imgui" lib'ą 
     > Parsiunčia "SampEvents" lib'ą 
     > Parsiunčia "AutoReboot.lua", "SF Integration.lua", "reload_all.lua" papildinius 
+    > Parsiunčia "SAMPFUNCS.asi" 
     > Parsiunčia "Rep Binder.luac" Stable versija. 
 
     @Mintaras - 2023-10-13 
@@ -13,13 +14,18 @@
 local dlstatus = require('moonloader').download_status 
 
 function main()
-    repeat wait(0) until isSampAvailable() 
-    repeat wait(0) until sampIsLocalPlayerSpawned() 
+    -- getGameDirectory()
+    -- print(string.gsub(getGameDirectory(), "\\", "/"))
+
+    if doesFileExist(string.gsub(getGameDirectory(), "\\", "/").."/SAMPFUNCS.asi") then addcm = true else addcm = false end 
 
     if not doesDirectoryExist(thisScript().directory.."/lib/mimgui") then createDirectory(thisScript().directory.."/lib/mimgui") end 
     if not doesDirectoryExist(thisScript().directory.."/lib/samp") then createDirectory(thisScript().directory.."/lib/samp") end 
     if not doesDirectoryExist(thisScript().directory.."/lib/samp/events") then createDirectory(thisScript().directory.."/lib/samp/events") end 
     if not doesDirectoryExist(thisScript().directory.."/config/RepBind") then createDirectory(thisScript().directory.."/config/RepBind") end 
+    if not doesDirectoryExist(string.gsub(getGameDirectory(), "\\", "/") .."/SAMPFUNCS") then createDirectory(string.gsub(getGameDirectory(), "\\", "/") .."/SAMPFUNCS") end 
+
+    -- 
 
     if not doesFileExist(thisScript().directory.."/lib/imgui.lua") then print("Downloading: ./GTA-SanAndreas/moonloader/lib/imgui.lua") downloadUrlToFile("https://raw.githubusercontent.com/Mintaras1/RepBindJson/main/GTA-SanAndreas/moonloader/lib/imgui.lua", thisScript().directory.."/lib/imgui.lua") end 
     while not doesFileExist(thisScript().directory.."/lib/imgui.lua") do wait(1) end 
@@ -39,7 +45,7 @@ function main()
 	if not doesFileExist(thisScript().directory.."/lib/mimgui/init.lua") then print("/Downloading: ./GTA-SanAndreas/moonloader/lib/mimgui/init.lua") downloadUrlToFile("https://github.com/Mintaras1/RepBindJson/raw/main/GTA-SanAndreas/moonloader/lib/mimgui/init.lua", thisScript().directory.."/lib/mimgui/init.lua") end 
     while not doesFileExist(thisScript().directory.."/lib/mimgui/init.lua") do wait(1) end 
 
-    --
+    -- 
 
 	if not doesFileExist(thisScript().directory.."/lib/samp/events.lua") then print("/Downloading: ./GTA-SanAndreas/moonloader/lib/samp/events.lua") downloadUrlToFile("https://github.com/Mintaras1/RepBindJson/raw/main/GTA-SanAndreas/moonloader/lib/samp/events.lua", thisScript().directory.."/lib/samp/events.lua") end 
     while not doesFileExist(thisScript().directory.."/lib/samp/events.lua") do wait(1) end 
@@ -65,7 +71,7 @@ function main()
 	if not doesFileExist(thisScript().directory.."/lib/samp/events/utils.lua") then print("/Downloading: ./GTA-SanAndreas/moonloader/lib/samp/events/utils.lua") downloadUrlToFile("https://github.com/Mintaras1/RepBindJson/raw/main/GTA-SanAndreas/moonloader/lib/samp/events/utils.lua", thisScript().directory.."/lib/samp/events/utils.lua") end 
     while not doesFileExist(thisScript().directory.."/lib/samp/events/utils.lua") do wait(1) end 
 
-    --
+    -- 
 
 	if not doesFileExist(thisScript().directory.."/AutoReboot.lua") then print("/Downloading: ./GTA-SanAndreas/moonloader/AutoReboot.lua") downloadUrlToFile("https://github.com/Mintaras1/RepBindJson/raw/main/GTA-SanAndreas/moonloader/AutoReboot.lua", thisScript().directory.."/AutoReboot.lua") end 
     while not doesFileExist(thisScript().directory.."/AutoReboot.lua") do wait(1) end 
@@ -76,9 +82,17 @@ function main()
 	if not doesFileExist(thisScript().directory.."/reload_all.lua") then print("/Downloading: ./GTA-SanAndreas/moonloader/reload_all.lua") downloadUrlToFile("https://github.com/Mintaras1/RepBindJson/raw/main/GTA-SanAndreas/moonloader/reload_all.lua", thisScript().directory.."/reload_all.lua") end 
     while not doesFileExist(thisScript().directory.."/reload_all.lua") do wait(1) end 
 
-    --
+    -- 
 
-    sampAddChatMessage(ltu("{dF8D1B}[RepBind.lua] {e6BB24}Visi reikalingi failai buvo atsiūsti."), 0xe6BB24)
+    if not doesFileExist(string.gsub(getGameDirectory(), "\\", "/").."/SAMPFUNCS.asi") then print("/Downloading: ./GTA-SanAndreas/SAMPFUNCS.asi") downloadUrlToFile("https://github.com/Mintaras1/RepBindJson/raw/main/GTA-SanAndreas/SAMPFUNCS.asi", string.gsub(getGameDirectory(), "\\", "/").."/SAMPFUNCS.asi") end 
+    while not doesFileExist(string.gsub(getGameDirectory(), "\\", "/").."/SAMPFUNCS.asi") do wait(1) end 
+
+    if not doesFileExist(string.gsub(getGameDirectory(), "\\", "/").."/SAMPFUNCS/sampfuncs-settings.ini") then print("/Downloading: ./GTA-SanAndreas/SAMPFUNCS/sampfuncs-settings.ini") downloadUrlToFile("https://github.com/Mintaras1/RepBindJson/raw/main/GTA-SanAndreas/SAMPFUNCS/sampfuncs-settings.ini", string.gsub(getGameDirectory(), "\\", "/").."/SAMPFUNCS/sampfuncs-settings.ini") end 
+    while not doesFileExist(string.gsub(getGameDirectory(), "\\", "/").."/SAMPFUNCS/sampfuncs-settings.ini") do wait(1) end 
+
+    -- 
+
+    if addcm then sampAddChatMessage(ltu("{dF8D1B}[RepBind.lua] {e6BB24}Visi reikalingi failai buvo atsiūsti."), 0xe6BB24) end 
 	downloadUrlToFile("https://raw.githubusercontent.com/Mintaras1/RepBindJson/main/global.json", thisScript().directory.."/config/RepBind/global.json", function(id, status, p1, p2) 
 		if status == dlstatus.STATUS_ENDDOWNLOADDATA then 
 			lua_thread.create(function() wait(1000)
@@ -86,17 +100,17 @@ function main()
 				local global_json = jsonread(thisScript().directory.."/config/RepBind/global.json") 
 				while not global_json.Ping do print("waiti'n on gobal_json") global_json = jsonread(thisScript().directory.."/config/RepBind/global.json") end 
 				jsonwrite(thisScript().directory.."/config/RepBind/global.json") 
-				if not global_json then sampAddChatMessage(ltu("{dF8D1B}[RepBind.lua] {FF0000}[Error] {e6BB24}global_json not loaded in time"), 0xe6BB24) thisScript():reload() end 
+				if not global_json then if addcm then sampAddChatMessage(ltu("{dF8D1B}[RepBind.lua] {FF0000}[Error] {e6BB24}global_json not loaded in time"), 0xe6BB24) end thisScript():reload() end 
                 local SingleUse = true 
                 downloadUrlToFile(global_json.Global.DownloadUrl.Stable, thisScript().path, function(id, status, p1, p2) 
                     if status == dlstatus.STATUS_ENDDOWNLOADDATA then 
-                        if SingleUse then sampAddChatMessage(ltu("{dF8D1B}[RepBind.lua] {e6BB24}Reporterių Keybindas paruoštas naudojimui. :)"), 0xe6BB24) SingleUse = false end 
+                        if SingleUse then if addcm then sampAddChatMessage(ltu("{dF8D1B}[RepBind.lua] {e6BB24}Reporterių Keybindas paruoštas naudojimui. :)"), 0xe6BB24) else lua_thread.create(dialog_thread) end SingleUse = false end 
                         lua_thread.create(function() wait(1000) 
                             if doesFileExist(thisScript().directory.."AutoReboot.lua") then 
                                 thisScript():unload() 
                             else 
                                 reloadScripts()
-                            end 
+                            end
                         end) 
                     end 
                 end) 
@@ -104,6 +118,20 @@ function main()
 		end 
 	end) 
     while true do wait(1) end 
+end 
+
+function dialog_thread()
+	setPlayerControl(PLAYER_HANDLE, false)
+	setGxtEntry('CMLUTTL', 'Rep Binder')
+	setGxtEntry('CMLUMSG', 'Atsiusti visi papildiniai, reikia perkrauti zaidima kad veiktu Rep Binderis')
+	local menu = createMenu('CMLUTTL', 120, 300, 400, 1, false, true, 1)
+	local dummy = 'DUMMY'
+	setMenuColumn(menu, 0, 'CMLUMSG', dummy, dummy, dummy, dummy, dummy, dummy, dummy, dummy, dummy, dummy, dummy, dummy)
+	setActiveMenuItem(menu, 5)
+	wait(10000)
+	deleteMenu(menu)
+	setPlayerControl(PLAYER_HANDLE, true)
+	thisScript():unload()
 end
 
 function ltu(text, code) 
