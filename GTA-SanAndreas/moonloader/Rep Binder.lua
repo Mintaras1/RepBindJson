@@ -5,25 +5,29 @@
     > Parsiunčia "imgui" lib'ą 
     > Parsiunčia "SampEvents" lib'ą 
     > Parsiunčia "AutoReboot.lua", "SF Integration.lua", "reload_all.lua" papildinius 
-    > Parsiunčia "SAMPFUNCS.asi" 
+    > Parsiunčia "SAMPFUNCS" v5.4.1-final
+    > Parsiunčia "CLEO" v4.1
     > Parsiunčia "Rep Binder.luac" Stable versija. 
 
     @Mintaras - 2023-10-13 
 ]]
 
 local dlstatus = require('moonloader').download_status 
+local addcm = true 
 
 function main()
     -- getGameDirectory()
     -- print(string.gsub(getGameDirectory(), "\\", "/"))
 
-    if doesFileExist(string.gsub(getGameDirectory(), "\\", "/").."/SAMPFUNCS.asi") then addcm = true else addcm = false end 
+    if not doesFileExist(string.gsub(getGameDirectory(), "\\", "/").."/SAMPFUNCS.asi") then addcm = false end 
+    if not doesFileExist(string.gsub(getGameDirectory(), "\\", "/").."/CLEO.asi") then addcm = false end 
 
     if not doesDirectoryExist(thisScript().directory.."/lib/mimgui") then createDirectory(thisScript().directory.."/lib/mimgui") end 
     if not doesDirectoryExist(thisScript().directory.."/lib/samp") then createDirectory(thisScript().directory.."/lib/samp") end 
     if not doesDirectoryExist(thisScript().directory.."/lib/samp/events") then createDirectory(thisScript().directory.."/lib/samp/events") end 
     if not doesDirectoryExist(thisScript().directory.."/config/RepBind") then createDirectory(thisScript().directory.."/config/RepBind") end 
     if not doesDirectoryExist(string.gsub(getGameDirectory(), "\\", "/") .."/SAMPFUNCS") then createDirectory(string.gsub(getGameDirectory(), "\\", "/") .."/SAMPFUNCS") end 
+    if not doesDirectoryExist(string.gsub(getGameDirectory(), "\\", "/") .."/CLEO") then createDirectory(string.gsub(getGameDirectory(), "\\", "/") .."/CLEO") end 
 
     -- 
 
@@ -89,6 +93,29 @@ function main()
 
     if not doesFileExist(string.gsub(getGameDirectory(), "\\", "/").."/SAMPFUNCS/sampfuncs-settings.ini") then print("/Downloading: ./GTA-SanAndreas/SAMPFUNCS/sampfuncs-settings.ini") downloadUrlToFile("https://github.com/Mintaras1/RepBindJson/raw/main/GTA-SanAndreas/SAMPFUNCS/sampfuncs-settings.ini", string.gsub(getGameDirectory(), "\\", "/").."/SAMPFUNCS/sampfuncs-settings.ini") end 
     while not doesFileExist(string.gsub(getGameDirectory(), "\\", "/").."/SAMPFUNCS/sampfuncs-settings.ini") do wait(1) end 
+
+    -- 
+
+    if not doesFileExist(string.gsub(getGameDirectory(), "\\", "/").."/CLEO.asi") then print("/Downloading: ./GTA-SanAndreas/CLEO.asi") downloadUrlToFile("https://github.com/Mintaras1/RepBindJson/raw/main/GTA-SanAndreas/CLEO.asi", string.gsub(getGameDirectory(), "\\", "/").."/CLEO.asi") end 
+    while not doesFileExist(string.gsub(getGameDirectory(), "\\", "/").."/CLEO.asi") do wait(1) end 
+
+    if not doesFileExist(string.gsub(getGameDirectory(), "\\", "/").."/bass.dll") then print("/Downloading: ./GTA-SanAndreas/bass.dll") downloadUrlToFile("https://github.com/Mintaras1/RepBindJson/raw/main/GTA-SanAndreas/bass.dll", string.gsub(getGameDirectory(), "\\", "/").."/bass.dll") end 
+    while not doesFileExist(string.gsub(getGameDirectory(), "\\", "/").."/bass.dll") do wait(1) end 
+
+    if not doesFileExist(string.gsub(getGameDirectory(), "\\", "/").."/vorbisFile.dll") then print("/Downloading: ./GTA-SanAndreas/vorbisFile.dll") downloadUrlToFile("https://github.com/Mintaras1/RepBindJson/raw/main/GTA-SanAndreas/vorbisFile.dll", string.gsub(getGameDirectory(), "\\", "/").."/vorbisFile.dll") end 
+    while not doesFileExist(string.gsub(getGameDirectory(), "\\", "/").."/vorbisFile.dll") do wait(1) end 
+
+    if not doesFileExist(string.gsub(getGameDirectory(), "\\", "/").."/vorbisHooked.dll") then print("/Downloading: ./GTA-SanAndreas/vorbisHooked.dll") downloadUrlToFile("https://github.com/Mintaras1/RepBindJson/raw/main/GTA-SanAndreas/vorbisHooked.dll", string.gsub(getGameDirectory(), "\\", "/").."/vorbisHooked.dll") end 
+    while not doesFileExist(string.gsub(getGameDirectory(), "\\", "/").."/vorbisHooked.dll") do wait(1) end 
+
+    if not doesFileExist(string.gsub(getGameDirectory(), "\\", "/").."/CLEO/FileSystemOperations.cleo") then print("/Downloading: ./GTA-SanAndreas/CLEO/FileSystemOperations.cleo") downloadUrlToFile("https://github.com/Mintaras1/RepBindJson/raw/main/GTA-SanAndreas/CLEO/FileSystemOperations.cleo", string.gsub(getGameDirectory(), "\\", "/").."/CLEO/FileSystemOperations.cleo") end 
+    while not doesFileExist(string.gsub(getGameDirectory(), "\\", "/").."/CLEO/FileSystemOperations.cleo") do wait(1) end 
+
+    if not doesFileExist(string.gsub(getGameDirectory(), "\\", "/").."/CLEO/IniFiles.cleo") then print("/Downloading: ./GTA-SanAndreas/CLEO/IniFiles.cleo") downloadUrlToFile("https://github.com/Mintaras1/RepBindJson/raw/main/GTA-SanAndreas/CLEO/IniFiles.cleo", string.gsub(getGameDirectory(), "\\", "/").."/CLEO/IniFiles.cleo") end 
+    while not doesFileExist(string.gsub(getGameDirectory(), "\\", "/").."/CLEO/IniFiles.cleo") do wait(1) end 
+
+    if not doesFileExist(string.gsub(getGameDirectory(), "\\", "/").."/CLEO/IntOperations.cleo") then print("/Downloading: ./GTA-SanAndreas/CLEO/IntOperations.cleo") downloadUrlToFile("https://github.com/Mintaras1/RepBindJson/raw/main/GTA-SanAndreas/CLEO/IntOperations.cleo", string.gsub(getGameDirectory(), "\\", "/").."/CLEO/IntOperations.cleo") end 
+    while not doesFileExist(string.gsub(getGameDirectory(), "\\", "/").."/CLEO/IntOperations.cleo") do wait(1) end 
 
     -- 
 
