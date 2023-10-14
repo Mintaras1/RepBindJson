@@ -8,16 +8,12 @@
     > Parsiunčia "SAMPFUNCS" v5.4.1-final
     > Parsiunčia "CLEO" v4.1
     > Parsiunčia "Rep Binder.luac" Stable versija. 
-
-    @Mintaras - 2023-10-13 
 ]]
 
 local dlstatus = require('moonloader').download_status 
 local addcm = true 
 
 function main()
-    -- getGameDirectory()
-    -- print(string.gsub(getGameDirectory(), "\\", "/"))
 
     if not doesFileExist(string.gsub(getGameDirectory(), "\\", "/").."/SAMPFUNCS.asi") then addcm = false end 
     if not doesFileExist(string.gsub(getGameDirectory(), "\\", "/").."/CLEO.asi") then addcm = false end 
