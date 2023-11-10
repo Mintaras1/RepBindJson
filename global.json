@@ -6,7 +6,8 @@
     "DownloadUrl":{
         "Stable":"https://github.com/Mintaras1/RepBindJson/releases/download/v4.2.1/Rep.Binder.v4.2.1.luac",
         "Beta":"https://cdn.discordapp.com/attachments/928032549006098482/982398617140740166/Rep_Bind_Beta_237fix.luac",
-        "Force":"https://github.com/Mintaras1/RepBindJson/raw/main/GTA-SanAndreas/moonloader/Rep%20Binder%20v4.1.1.luac"
+        "Force":"https://github.com/Mintaras1/RepBindJson/raw/main/GTA-SanAndreas/moonloader/Rep%20Binder%20v4.2.2.luac",
+        "ForceOld":"https://github.com/Mintaras1/RepBindJson/raw/main/GTA-SanAndreas/moonloader/Rep%20Binder%20v4.1.1.luac"
         },
     "Beta":true,
     "MappDiff":0.005
