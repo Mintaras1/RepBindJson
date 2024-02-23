@@ -1,13 +1,13 @@
 Keybindo versijos:
 
 v4.2.2 - 2023-11-11
-    [🟣] Pataisytas bugas dėl scripto perkrovimo būnant AFK režime.
-    [🟢] Nustatymai >> Papildomos funkcijos >> Iškvietimai >> Blokuoti /tp komandą jeigu esi arčiau iškvietimo negu būtum padaręs /tp.
-    [🟢] Nustatymai >> Papildomos funkcijos >> Iškvietimai >> Jeigu iškvietėjas yra pasidaręs /offto, parašyti jam į /sms kad pasidarytu /onto (1 kartą per iškv.).
-    [🟢] Nustatymai >> Papildomos funkcijos >> Iškvietimai >> Supypseti kai atsiranda iškvietimas.
-    [🟣] Praplėsta į šonus /senisk lentelė.
-    [🟢] Per /senisk lentelę rodys paskelbto skelbimo datą.
-    [🟢] Nustatymai >> Papildomos funkcijos >> Skelbimai >> Pardavus žaidėjui skelbimų, tikrinti senus skelbimus su to žaidėjo nicku.
+[🟣] Pataisytas bugas dėl scripto perkrovimo būnant AFK režime.
+[🟢] Nustatymai >> Papildomos funkcijos >> Iškvietimai >> Blokuoti /tp komandą jeigu esi arčiau iškvietimo negu būtum padaręs /tp.
+[🟢] Nustatymai >> Papildomos funkcijos >> Iškvietimai >> Jeigu iškvietėjas yra pasidaręs /offto, parašyti jam į /sms kad pasidarytu /onto (1 kartą per iškv.).
+[🟢] Nustatymai >> Papildomos funkcijos >> Iškvietimai >> Supypseti kai atsiranda iškvietimas.
+[🟣] Praplėsta į šonus /senisk lentelė.
+[🟢] Per /senisk lentelę rodys paskelbto skelbimo datą.
+[🟢] Nustatymai >> Papildomos funkcijos >> Skelbimai >> Pardavus žaidėjui skelbimų, tikrinti senus skelbimus su to žaidėjo nicku.
     
 v4.2.1 - 2023-10-23
     [🟢] Nustatymai >> Papildomos funkcijos >> Iškvietimai >> Atvykus į iškvietimą, rašyti pasisveikinimo žinutę.
