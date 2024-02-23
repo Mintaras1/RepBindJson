@@ -1,5 +1,17 @@
 Keybindo versijos:
 
+v4.2.5 - 2024-02-23
+
+    [🟣] Suremontuotas GetVehID() funkcijos random crashas
+    [🟢] April fools
+    [🟣] [Atidaryti chatą su "/" mygtuku.] ir [Atvykus pas žaidėją į iškvietimą, duoti jam:] turėjo tą patį id. Fixed.
+    [🔴] Panaikinta funkcija: "Pardavus žaidėjui skelbimų, tikrinti senus skelbimus su to žaidėjo nicku."
+
+v4.2.4 - 2023-11-21
+
+    [🟣] Atsiradus iškvietimui, chatą su /važiuoju nebeatidarinės jeigu jau turi paėmęs iškvietimą. 
+    [🟢] Nustatymai >> Papildomos funkcijos >> Random >> Prie žaidėjų nickų pridėti [ID] (a.k.a. ChatID). 
+
 v4.2.2 - 2023-11-11
 
     [🟣] Pataisytas bugas dėl scripto perkrovimo būnant AFK režime.
@@ -10,12 +22,10 @@ v4.2.2 - 2023-11-11
     [🟢] Per /senisk lentelę rodys paskelbto skelbimo datą.
     [🟢] Nustatymai >> Papildomos funkcijos >> Skelbimai >> Pardavus žaidėjui skelbimų, tikrinti senus skelbimus su to žaidėjo nicku.
 
-    
 v4.2.1 - 2023-10-23
 
     [🟢] Nustatymai >> Papildomos funkcijos >> Iškvietimai >> Atvykus į iškvietimą, rašyti pasisveikinimo žinutę.
     [🟣] Patvarkytas bugas dėl kurio išsijungdavo keybindas, kai bandydavo žaidėją informuoti jog jam baigėsi skelbimai.
-
 
 v4.2 - 2023-10-15
 
@@ -25,20 +35,17 @@ v4.2 - 2023-10-15
     [🟣] Tekstas kuris viršija 128simbolius bus apkarpytas, kad tilptu į chatą (nerodė teksto dėl per daug simbolių).
     [🟢] Nauja komanda "/repbind.import.ebinds" kuri įkelia informacija iš /ebinds keybindo į Rep Binder keybindą.
 
-
 v4.1.2 - 2023-09-23
 
     [🟣] Supaprastintos kaikurios funkcijos.
     [🟣] Sutvarkytas bugas dėl kurio perkrovus visus scriptus su Ctrl + R išsicrashindavo rep bindas.
     [🟣] Panaikintas DEBUG tekstas iš F2 knopkės (RIP Gaw_Gaw, taip ir negavo 500€).
 
-    
 v4.1.1 - 2023-04-28
 
     [🟢] Pridėtas nustatymas (Nustatymai >> Papildomos funkcijos >> Iškvietimai) Rankiniu būdu atsitelinti į paskutinį paimtą iškvietimą.
     [🟢] Pridėtas nustatymas (Nustatymai >> Papildomos funkcijos >> Random) Atidaryti chatą su "/" mygtuku.
     [🟢] Pridėtas nustatymas (Nustatymai >> Papildomos funkcijos >> Iškvietimai) Atvykus pas žaidėją į iškvietimą, duoti jam xxxxx €.
-
 
 v4.1 - 2023-04-15
 
@@ -57,7 +64,6 @@ v4.1 - 2023-04-15
     [🟣] Perdaryta nick aptikimo sistema
     [🟣] /vaziuoju rašymas į chatą funkcija tikrins, ar žaidėjas turi aktyvų premium keybind
     [🟢] Jeigu darbuotojas idės 1k į dfondą su tekstu, rašys į chatą jo tekstą (fake [racija] žinutė)
-
 
 v4.0 - 2022-05-12
 
