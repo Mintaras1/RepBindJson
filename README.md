@@ -1,11 +1,11 @@
 Keybindo versijos:
 
 v4.2.5 - 2024-02-23
-`[🟣] Suremontuotas GetVehID() funkcijos random crashas
+``[🟣] Suremontuotas GetVehID() funkcijos random crashas
 [🟢] April fools
 [🟣] [Atidaryti chatą su "/" mygtuku.] ir [Atvykus pas žaidėją į iškvietimą, duoti jam:] turėjo tą patį id. Fixed.
 [🔴] Panaikinta funkcija: "Pardavus žaidėjui skelbimų, tikrinti senus skelbimus su to žaidėjo nicku."
-`
+``
 v4.2.4 - 2023-11-21
 
     [🟣] Atsiradus iškvietimui, chatą su /važiuoju nebeatidarinės jeigu jau turi paėmęs iškvietimą. 
