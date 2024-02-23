@@ -1,6 +1,7 @@
 Keybindo versijos:
 
 v4.2.5 - 2024-02-23
+
     [🟣] Suremontuotas GetVehID() funkcijos random crashas
     [🟢] April fools
     [🟣] [Atidaryti chatą su "/" mygtuku.] ir [Atvykus pas žaidėją į iškvietimą, duoti jam:] turėjo tą patį id. Fixed.
