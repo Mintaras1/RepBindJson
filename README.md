@@ -1,36 +1,47 @@
 Keybindo versijos:
 
 v4.2.2 - 2023-11-11
-[🟣] Pataisytas bugas dėl scripto perkrovimo būnant AFK režime.
-[🟢] Nustatymai >> Papildomos funkcijos >> Iškvietimai >> Blokuoti /tp komandą jeigu esi arčiau iškvietimo negu būtum padaręs /tp.
-[🟢] Nustatymai >> Papildomos funkcijos >> Iškvietimai >> Jeigu iškvietėjas yra pasidaręs /offto, parašyti jam į /sms kad pasidarytu /onto (1 kartą per iškv.).
-[🟢] Nustatymai >> Papildomos funkcijos >> Iškvietimai >> Supypseti kai atsiranda iškvietimas.
-[🟣] Praplėsta į šonus /senisk lentelė.
-[🟢] Per /senisk lentelę rodys paskelbto skelbimo datą.
-[🟢] Nustatymai >> Papildomos funkcijos >> Skelbimai >> Pardavus žaidėjui skelbimų, tikrinti senus skelbimus su to žaidėjo nicku.
+
+    [🟣] Pataisytas bugas dėl scripto perkrovimo būnant AFK režime.
+    [🟢] Nustatymai >> Papildomos funkcijos >> Iškvietimai >> Blokuoti /tp komandą jeigu esi arčiau iškvietimo negu būtum padaręs /tp.
+    [🟢] Nustatymai >> Papildomos funkcijos >> Iškvietimai >> Jeigu iškvietėjas yra pasidaręs /offto, parašyti jam į /sms kad pasidarytu /onto (1 kartą per iškv.).
+    [🟢] Nustatymai >> Papildomos funkcijos >> Iškvietimai >> Supypseti kai atsiranda iškvietimas.
+    [🟣] Praplėsta į šonus /senisk lentelė.
+    [🟢] Per /senisk lentelę rodys paskelbto skelbimo datą.
+    [🟢] Nustatymai >> Papildomos funkcijos >> Skelbimai >> Pardavus žaidėjui skelbimų, tikrinti senus skelbimus su to žaidėjo nicku.
+
     
 v4.2.1 - 2023-10-23
+
     [🟢] Nustatymai >> Papildomos funkcijos >> Iškvietimai >> Atvykus į iškvietimą, rašyti pasisveikinimo žinutę.
     [🟣] Patvarkytas bugas dėl kurio išsijungdavo keybindas, kai bandydavo žaidėją informuoti jog jam baigėsi skelbimai.
 
+
 v4.2 - 2023-10-15
+
     [🟢] Nustatymas kuris perkelinėjo sekimo lentelę į dešinę pusę taippat perkels ir GPS lentelę.
     [🟢] F3 >> Nustatymai >> Papildomos funkcijos >> Komandos >> Sutrumpinti "/bendradarbiai" komandą į "/bendr" bei "/kolegos".
     [🟢] Sukurtas naujas įrankis palengvinantis keybindo įrašymą.
     [🟣] Tekstas kuris viršija 128simbolius bus apkarpytas, kad tilptu į chatą (nerodė teksto dėl per daug simbolių).
     [🟢] Nauja komanda "/repbind.import.ebinds" kuri įkelia informacija iš /ebinds keybindo į Rep Binder keybindą.
 
+
 v4.1.2 - 2023-09-23
+
     [🟣] Supaprastintos kaikurios funkcijos.
     [🟣] Sutvarkytas bugas dėl kurio perkrovus visus scriptus su Ctrl + R išsicrashindavo rep bindas.
     [🟣] Panaikintas DEBUG tekstas iš F2 knopkės (RIP Gaw_Gaw, taip ir negavo 500€).
+
     
 v4.1.1 - 2023-04-28
+
     [🟢] Pridėtas nustatymas (Nustatymai >> Papildomos funkcijos >> Iškvietimai) Rankiniu būdu atsitelinti į paskutinį paimtą iškvietimą.
     [🟢] Pridėtas nustatymas (Nustatymai >> Papildomos funkcijos >> Random) Atidaryti chatą su "/" mygtuku.
     [🟢] Pridėtas nustatymas (Nustatymai >> Papildomos funkcijos >> Iškvietimai) Atvykus pas žaidėją į iškvietimą, duoti jam xxxxx €.
 
+
 v4.1 - 2023-04-15
+
     [🟣] Sutvarkyta AutoUpdate funkcija
     [🟣] Sutvarkyta problema dėl MultiThread crashų
     [🟢] Naudojant /xx arba /x komandas (su auto sk idėjimu) galima rašyti skelbėjo ID vietoj pilno V_P
@@ -47,7 +58,9 @@ v4.1 - 2023-04-15
     [🟣] /vaziuoju rašymas į chatą funkcija tikrins, ar žaidėjas turi aktyvų premium keybind
     [🟢] Jeigu darbuotojas idės 1k į dfondą su tekstu, rašys į chatą jo tekstą (fake [racija] žinutė)
 
+
 v4.0 - 2022-05-12
+
     [🟢] Skalbenkė perrašyta iš .ahk į .lua (+Linux palaikymas)
     [🟢] Skalbenkės valdymas žaidime (Default "F3" arba "/repbind")
     [🟢] Pridėta nauja funkcija, kurią įjungus, bus nusiūtas sms'as klientui, jog jo skelbimai pasibaigė.
