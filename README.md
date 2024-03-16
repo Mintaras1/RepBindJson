@@ -1,5 +1,9 @@
 Keybindo versijos:
 
+v4.2.6 - 2024-03-16
+
+    [🟣] Sutvarkyta klaida dėl kurios neveikė "Jeigu iškvietėjas yra pasidaręs /offto, parašyti jam į /sms kad pasidarytu /onto" funkcija.
+
 v4.2.5 - 2024-02-23
 
     [🟣] Suremontuotas GetVehID() funkcijos random crashas
