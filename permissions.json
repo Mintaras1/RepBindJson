@@ -823,7 +823,7 @@
         "isGameWindowForeground":false,
         "inVehicleAsPassenger":false
         },
-    "Debug":true
+    "Debug":false
     },
 "Ping":"Pong"
 }
