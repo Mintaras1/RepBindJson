@@ -1,4 +1,3 @@
-from discord_webhook import DiscordWebhook
 from datetime import datetime
 from bs4 import BeautifulSoup
 import requests
@@ -6,7 +5,6 @@ import re
 import json
 import os
 
-webhook_url = "https://discord.com/api/webhooks/873276798102818826/2csTsKy5yr26aJTtcozZrz-uYf-gZw3PZW7VSHavW9UDm93qeqaS4yUXWxBpJvr6nX9N"
 json_file_path = os.path.join(os.path.dirname(os.path.realpath(__file__)), "ads.json")
 
 soup = BeautifulSoup(requests.get("https://sarg.lt/index.php?/cp/5-skelbimai/").text , "html.parser")
@@ -44,7 +42,6 @@ for ad in skelbimai:
                 "Skelbimas": input_text
             }
             ad_arr.insert(0, data)
-            DiscordWebhook(url=webhook_url, content=input_text).execute()
             print("Added:", input_text)
 
 ad_arr.sort(key=lambda x: datetime.strptime(x["Data"], "%Y-%m-%d %H:%M:%S"), reverse=True)
