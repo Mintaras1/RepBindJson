@@ -811,5 +811,19 @@
         },
     "Debug":false
     },
+"Fatboy_Slim":{
+    "Premium":{
+        "SkalbenkePed":"2023-04-20",
+        "SkalbenkeVeh":"2023-04-20",
+        "Delay":17500,
+        "Keybind":"2023-04-20",
+        "SSK":"2023-04-20"
+        },
+    "Flags":{
+        "isGameWindowForeground":false,
+        "inVehicleAsPassenger":false
+        },
+    "Debug":true
+    },
 "Ping":"Pong"
 }
