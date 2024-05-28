@@ -1,118 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Skelbimų archyvas</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-            background-color: #222;
-            color: #fff;
-        }
-        input[type="text"] {
-            width: 300px;
-            padding: 10px;
-            margin-bottom: 10px;
-            border: 1px solid #666;
-            border-radius: 4px;
-            background-color: #333;
-            color: #fff;
-        }
-        .ad {
-            border: 1px solid #666;
-            padding: 10px;
-            margin-bottom: 10px;
-            border-radius: 4px;
-            background-color: #333;
-        }
-        .ad strong {
-            color: #ffd700;
-        }
-        #listingsCount {
-            margin-bottom: 20px;
-        }
-    </style>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Skelbimų archyvas</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			margin: 20px;
+			background-color: #222;
+			color: #fff;
+		}
+		input[type="text"] {
+			width: 300px;
+			padding: 10px;
+			margin-bottom: 10px;
+			border: 1px solid #666;
+			border-radius: 4px;
+			background-color: #333;
+			color: #fff;
+		}
+		.ad {
+			border: 1px solid #666;
+			padding: 10px;
+			margin-bottom: 10px;
+			border-radius: 4px;
+			background-color: #333;
+		}
+		.ad strong {
+			color: #ffd700;
+		}
+		#listingsCount {
+			margin-bottom: 20px;
+		}
+	</style>
 </head>
 <body>
-    <h1>Skelbimų archyvas</h1>
-    <div id="listingsCount">Saugoma x skirtingų skelbimų nuo 2024-04-16</div>
-    <input type="text" id="searchBar" placeholder="Ieškoti skelbimų">
-    <div id="results"></div>
+	<h1>SARG.LT Reporterių skelbimų archyvas</h1>
+	<div id="listingsCount"> </div>
+	<input type="text" id="searchBar" placeholder="Ieškoti skelbimų">
+	<div id="results"></div>
 
-    <script>
-        async function fetchAds() {
-            try {
-                const response = await fetch('ads.json');
-                if (!response.ok) {
-                    throw new Error(`HTTP error! status: ${response.status}`);
-                }
-                const data = await response.json();
-                console.log('Fetched ads:', data); // Log the fetched ads
-                return data;
-            } catch (error) {
-                console.error('Error fetching the ads:', error);
-                return [];
-            }
-        }
+	<script>
+		async function fetchAds() {
+			try {
+				const response = await fetch('ads.json');
+				if (!response.ok) {
+					throw new Error(`HTTP error! status: ${response.status}`);
+				}
+				const data = await response.json();
+				console.log('Fetched ads:', data);
+				return data;
+			} catch (error) {
+				console.error('Error fetching the ads:', error);
+				return [];
+			}
+		}
 
-        function displayResults(ads, query = '') {
-            const resultsDiv = document.getElementById('results');
-            resultsDiv.innerHTML = '';
+		function displayResults(ads, query = '') {
+			const resultsDiv = document.getElementById('results');
+			resultsDiv.innerHTML = '';
 
-            const filteredAds = ads.filter(ad => ad.Skelbimas.toLowerCase().includes(query.toLowerCase()));
+			const filteredAds = ads.filter(ad => ad.Skelbimas.toLowerCase().includes(query.toLowerCase()));
 
-            if (filteredAds.length === 0) {
-                resultsDiv.innerHTML = '<p>Nerasta skelbimų</p>';
-                return;
-            }
+			if (filteredAds.length === 0) {
+				resultsDiv.innerHTML = '<p>Nerasta skelbimų</p>';
+				return;
+			}
 
-            filteredAds.forEach(ad => {
-                const adDiv = document.createElement('div');
-                adDiv.classList.add('ad');
-                adDiv.innerHTML = `<strong>Data:</strong> ${ad.Data} <br>
-                                   <strong>Reporteris:</strong> ${ad.Reporteris} <br>
-                                   <strong>Skelbimas:</strong> ${ad.Skelbimas}`;
-                resultsDiv.appendChild(adDiv);
-            });
-        }
+			filteredAds.forEach(ad => {
+				const adDiv = document.createElement('div');
+				adDiv.classList.add('ad');
+				adDiv.innerHTML = `<strong>Data:</strong> ${ad.Data} <br>
+				                   <strong>Reporteris:</strong> ${ad.Reporteris} <br>
+				                   <strong>Skelbimas:</strong> ${ad.Skelbimas}`;
+				resultsDiv.appendChild(adDiv);
+			});
+		}
 
-        function displayRecentAds(ads, limit = 50) {
-            const resultsDiv = document.getElementById('results');
-            resultsDiv.innerHTML = '';
+		function displayRecentAds(ads, limit = 50) {
+			const resultsDiv = document.getElementById('results');
+			resultsDiv.innerHTML = '';
 
-            const sortedAds = ads.sort((a, b) => new Date(b.Data) - new Date(a.Data));
-            const recentAds = sortedAds.slice(0, limit);
+			const sortedAds = ads.sort((a, b) => new Date(b.Data) - new Date(a.Data));
+			const recentAds = sortedAds.slice(0, limit);
 
-            recentAds.forEach(ad => {
-                const adDiv = document.createElement('div');
-                adDiv.classList.add('ad');
-                adDiv.innerHTML = `<strong>Data:</strong> ${ad.Data} <br>
-                                   <strong>Reporteris:</strong> ${ad.Reporteris} <br>
-                                   <strong>Skelbimas:</strong> ${ad.Skelbimas}`;
-                resultsDiv.appendChild(adDiv);
-            });
-        }
+			recentAds.forEach(ad => {
+				const adDiv = document.createElement('div');
+				adDiv.classList.add('ad');
+				adDiv.innerHTML = `<strong>Data:</strong> ${ad.Data} <br>
+				                   <strong>Reporteris:</strong> ${ad.Reporteris} <br>
+				                   <strong>Skelbimas:</strong> ${ad.Skelbimas}`;
+				resultsDiv.appendChild(adDiv);
+			});
+		}
 
 		document.addEventListener('DOMContentLoaded', async function() {
 			const ads = await fetchAds();
 			displayRecentAds(ads);
-			document.getElementById('searchBar').value = ''; // Clear the search field on page load
-            document.getElementById('listingsCount').innerText = `Saugoma ${ads.length} skirtingų skelbimų nuo 2024-04-16`;
+			document.getElementById('searchBar').value = '';
+			document.getElementById('listingsCount').innerText = `Saugoma ${ads.length} skirtingų skelbimų nuo 2024-04-16`;
 		});
 
 		document.getElementById('searchBar').addEventListener('input', async function() {
-			const query = this.value; // Get the value of the search bar
+			const query = this.value;
 			const ads = await fetchAds();
 			displayResults(ads, query);
 		});
 
 
-        document.addEventListener('DOMContentLoaded', async function() {
-            const ads = await fetchAds();
-            displayRecentAds(ads);
-        });
-    </script>
+		document.addEventListener('DOMContentLoaded', async function() {
+			const ads = await fetchAds();
+			displayRecentAds(ads);
+		});
+	</script>
 </body>
 </html>
