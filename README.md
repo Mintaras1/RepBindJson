@@ -1,5 +1,12 @@
 Keybindo versijos:
 
+v4.2.7 - 2024-09-01
+
+    [🟢] Gražinta /senisk funkcija
+    [🟢] Gražinta "Nustatymai >> Papildomos funkcijos >> Skelbimai >> Pardavus žaidėjui skelbimų, tikrinti senus skelbimus su to žaidėjo nicku." funkcija.
+    [🟣] Sutvarkytas bugas su getGameTimer() funkcija dėl kurios nuleidus žaidimą ir atgal pakėlus bugindavosi cooldown laikas
+    [🟢] Galimybė pasikeisti kiek /senisk lentelėje bus rodoma senų skelbimų "Nustatymai >> Papildomos funkcijos >> Skelbimai >> Maksimalus senų skelbimų kiekis"
+
 v4.2.6 - 2024-03-16
 
     [🟣] Sutvarkyta klaida dėl kurios neveikė "Jeigu iškvietėjas yra pasidaręs /offto, parašyti jam į /sms kad pasidarytu /onto" funkcija.
