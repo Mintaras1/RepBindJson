@@ -825,5 +825,33 @@
         },
     "Debug":false
     },
+"Audi_Mister":{
+    "Premium":{
+        "SkalbenkePed":"2025-01-16",
+        "SkalbenkeVeh":"2025-01-16",
+        "Delay":17500,
+        "Keybind":"2025-01-16",
+        "SSK":"2025-01-16"
+        },
+    "Flags":{
+        "isGameWindowForeground":false,
+        "inVehicleAsPassenger":false
+        },
+    "Debug":true
+    },
+"Arvydas_Owned":{
+    "Premium":{
+        "SkalbenkePed":"2025-01-16",
+        "SkalbenkeVeh":"2025-01-16",
+        "Delay":17500,
+        "Keybind":"2025-01-16",
+        "SSK":"2025-01-16"
+        },
+    "Flags":{
+        "isGameWindowForeground":false,
+        "inVehicleAsPassenger":false
+        },
+    "Debug":true
+    },
 "Ping":"Pong"
 }
