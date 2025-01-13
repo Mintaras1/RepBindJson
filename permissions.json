@@ -837,7 +837,7 @@
         "isGameWindowForeground":false,
         "inVehicleAsPassenger":false
         },
-    "Debug":true
+    "Debug":false
     },
 "Arvydas_Owned":{
     "Premium":{
@@ -851,7 +851,7 @@
         "isGameWindowForeground":false,
         "inVehicleAsPassenger":false
         },
-    "Debug":true
+    "Debug":false
     },
 "Ping":"Pong"
 }
