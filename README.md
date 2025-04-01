@@ -1,5 +1,11 @@
 Keybindo versijos:
 
+v4.2.8 - 2025-04-01
+    
+    [🟣] Nuleidus žaidimą rep bindas stengsis neskelbt skelbimų
+    [🟣] April fools wait instead of sleep
+    [🟣] /senisk veix su lt raide (singular)
+
 v4.2.7 - 2024-09-01
 
     [🟢] Gražinta /senisk funkcija
