@@ -1,5 +1,9 @@
 Keybindo versijos:
 
+v4.2.9 - 2025-04-07
+
+    [🟢] Turint mute, naudojant /r komanda veiks kaip /dideti 1k
+
 v4.2.8 - 2025-04-01
     
     [🟣] Nuleidus žaidimą rep bindas stengsis neskelbt skelbimų
