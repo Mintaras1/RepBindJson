@@ -1,21 +1,26 @@
 Keybindo versijos:
 
+v4.3.0 - 2025-04-25
+
+    [🟣] Esant mutėj naudojant /re [žinutė] nebegalvos kad bandai panaudot komanda /r [žinutė] (a.k.a. /dideti 1k [žinutė]).
+    [🟣] Sutvarkyta klaida "r_command_time nil variable".
+
 v4.2.9 - 2025-04-07
 
-    [🟢] Turint mute, naudojant /r komanda veiks kaip /dideti 1k
+    [🟢] Turint mute, naudojant /r komanda veiks kaip /dideti 1k.
 
 v4.2.8 - 2025-04-01
     
-    [🟣] Nuleidus žaidimą rep bindas stengsis neskelbt skelbimų
-    [🟣] April fools wait instead of sleep
-    [🟣] /senisk veix su lt raide (singular)
+    [🟣] Nuleidus žaidimą rep bindas stengsis neskelbt skelbimų.
+    [🟣] April fools wait instead of sleep.
+    [🟣] /senisk veix su lt raide (singular).
 
 v4.2.7 - 2024-09-01
 
     [🟢] Gražinta /senisk funkcija
     [🟢] Gražinta "Nustatymai >> Papildomos funkcijos >> Skelbimai >> Pardavus žaidėjui skelbimų, tikrinti senus skelbimus su to žaidėjo nicku." funkcija.
-    [🟣] Sutvarkytas bugas su getGameTimer() funkcija dėl kurios nuleidus žaidimą ir atgal pakėlus bugindavosi cooldown laikas
-    [🟢] Galimybė pasikeisti kiek /senisk lentelėje bus rodoma senų skelbimų "Nustatymai >> Papildomos funkcijos >> Skelbimai >> Maksimalus senų skelbimų kiekis"
+    [🟣] Sutvarkytas bugas su getGameTimer() funkcija dėl kurios nuleidus žaidimą ir atgal pakėlus bugindavosi cooldown laikas.
+    [🟢] Galimybė pasikeisti kiek /senisk lentelėje bus rodoma senų skelbimų "Nustatymai >> Papildomos funkcijos >> Skelbimai >> Maksimalus senų skelbimų kiekis".
 
 v4.2.6 - 2024-03-16
 
@@ -23,10 +28,10 @@ v4.2.6 - 2024-03-16
 
 v4.2.5 - 2024-02-23
 
-    [🟣] Suremontuotas GetVehID() funkcijos random crashas
-    [🟢] April fools
+    [🟣] Suremontuotas GetVehID() funkcijos random crashas.
+    [🟢] April fools.
     [🟣] [Atidaryti chatą su "/" mygtuku.] ir [Atvykus pas žaidėją į iškvietimą, duoti jam:] turėjo tą patį id. Fixed.
-    [🔴] Panaikinta funkcija: "Pardavus žaidėjui skelbimų, tikrinti senus skelbimus su to žaidėjo nicku."
+    [🔴] Panaikinta funkcija: "Pardavus žaidėjui skelbimų, tikrinti senus skelbimus su to žaidėjo nicku.".
 
 v4.2.4 - 2023-11-21
 
@@ -70,37 +75,37 @@ v4.1.1 - 2023-04-28
 
 v4.1 - 2023-04-15
 
-    [🟣] Sutvarkyta AutoUpdate funkcija
-    [🟣] Sutvarkyta problema dėl MultiThread crashų
-    [🟢] Naudojant /xx arba /x komandas (su auto sk idėjimu) galima rašyti skelbėjo ID vietoj pilno V_P
-    [🟢] Pridėtas nustatymas (Nustatymai >> Papildomos funkcijos >> Iškvietimai) "Sekimo lentelė kitoje ekrano pusėje"
-    [🔴] Neberašys iškvID/iškvFIX į sampfuncs consolę
-    [🟣] Kad atidarytu chatą su /vaziuoju, nebereikės buti įjungus IškvFix funkcijos
-    [🟣] AutoRR pradės siūsti senus skelbimus į šiukšlyną
-    [🟢] Po scripto restarto AutoSK funkcija nedirbs 10sec (kad nespamintu jeigu katik buvo sk)
-    [🟢] Atnaujinta skelbimų sinchronizavimo funkcija
-    [🟢] Pridėjau funkciją, kad galėčiau visiems uždėti Premium funkcijas (ne tik vienam asmeniui)
-    [🟢] Išjungs aktyvius skelbimus jeigu bandys skelbti skelbimus nedirbant reporteriu
-    [🟢] Sukurtas settings.json backupas, jeigu susicorruptintu nustatymai (kaikurie kažkaip sugeba)
-    [🟣] Perdaryta nick aptikimo sistema
-    [🟣] /vaziuoju rašymas į chatą funkcija tikrins, ar žaidėjas turi aktyvų premium keybind
-    [🟢] Jeigu darbuotojas idės 1k į dfondą su tekstu, rašys į chatą jo tekstą (fake [racija] žinutė)
+    [🟣] Sutvarkyta AutoUpdate funkcija.
+    [🟣] Sutvarkyta problema dėl MultiThread crashų.
+    [🟢] Naudojant /xx arba /x komandas (su auto sk idėjimu) galima rašyti skelbėjo ID vietoj pilno V_P.
+    [🟢] Pridėtas nustatymas (Nustatymai >> Papildomos funkcijos >> Iškvietimai) "Sekimo lentelė kitoje ekrano pusėje".
+    [🔴] Neberašys iškvID/iškvFIX į sampfuncs consolę.
+    [🟣] Kad atidarytu chatą su /vaziuoju, nebereikės buti įjungus IškvFix funkcijos.
+    [🟣] AutoRR pradės siūsti senus skelbimus į šiukšlyną.
+    [🟢] Po scripto restarto AutoSK funkcija nedirbs 10sec (kad nespamintu jeigu katik buvo sk).
+    [🟢] Atnaujinta skelbimų sinchronizavimo funkcija.
+    [🟢] Pridėjau funkciją, kad galėčiau visiems uždėti Premium funkcijas (ne tik vienam asmeniui).
+    [🟢] Išjungs aktyvius skelbimus jeigu bandys skelbti skelbimus nedirbant reporteriu.
+    [🟢] Sukurtas settings.json backupas, jeigu susicorruptintu nustatymai (kaikurie kažkaip sugeba).
+    [🟣] Perdaryta nick aptikimo sistema.
+    [🟣] /vaziuoju rašymas į chatą funkcija tikrins, ar žaidėjas turi aktyvų premium keybind.
+    [🟢] Jeigu darbuotojas idės 1k į dfondą su tekstu, rašys į chatą jo tekstą (fake [racija] žinutė).
 
 v4.0 - 2022-05-12
 
-    [🟢] Skalbenkė perrašyta iš .ahk į .lua (+Linux palaikymas)
-    [🟢] Skalbenkės valdymas žaidime (Default "F3" arba "/repbind")
+    [🟢] Skalbenkė perrašyta iš .ahk į .lua (+Linux palaikymas).
+    [🟢] Skalbenkės valdymas žaidime (Default "F3" arba "/repbind").
     [🟢] Pridėta nauja funkcija, kurią įjungus, bus nusiūtas sms'as klientui, jog jo skelbimai pasibaigė.
     [🟢] Prie papildomų funkcijų pridėta funkcija kad paėmus iškvietimą daryt /to pas klientą.
-    [🟣] Atnaujintos darbinės tr. priemonės.Pakeistos
+    [🟣] Atnaujintos darbinės tr. priemonės.Pakeistos.
     [🟢] Nauja komanda: /ap.
     [🟢] Jeigu skelbiamo teksto V_P yra prisijungęs, rašys jo ID (kad nesipjautu su chatid.sf ir nenupjautu eilutės).
     [🟡] Pridėta galimybė nusipirkti papildomų funkcijų ant savo nicko:
-        [🟡] Premium skalbenkė (automatinis skelbimas bet kurioje mašinoje)
-        [🟡] Premium skalbenkė (automatinis skelbimas nebūnant mašinoje)
-        [🟡] Premium keybind (galimybė loopint bet kokį tekstą/komandą)
-        [🟡] Premium skaičiuoklė (vietoj vnt kainos galima rašyt paslaugos tipą pagal dienos/nakties tarifą.)
-    [🟢] Nauja komanda: /premium
+        [🟡] Premium skalbenkė (automatinis skelbimas bet kurioje mašinoje).
+        [🟡] Premium skalbenkė (automatinis skelbimas nebūnant mašinoje).
+        [🟡] Premium keybind (galimybė loopint bet kokį tekstą/komandą).
+        [🟡] Premium skaičiuoklė (vietoj vnt kainos galima rašyt paslaugos tipą pagal dienos/nakties tarifą.).
+    [🟢] Nauja komanda: "/premium".
     [🔴] Paprasto keybindo automatinę funkciją bus galima naudoti tik su nustatytomis komandomis.
     [🟢] SeniSkelbimai tab'e, pridėtas paieškos laukelis.
     [🟢] Pridėta nauja funkcija, IškvID ir IškvFIX (pirmoji sutvarko iškvietusio nicką ir prirašo ID, antroji tik sutvarko nicką).
