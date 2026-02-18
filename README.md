@@ -1,5 +1,10 @@
 Keybindo versijos:
 
+v4.3.1 - 2026-02-18
+
+    [🟣] Paprasto keybindo loopinamas tekstas nebebus rašomas esant AFK 
+    [🟣] Pataisyta klaida su paprasto keybindo loopinamų komandų taisyklių nesilaikymu 
+
 v4.3.0 - 2025-04-25
 
     [🟣] Esant mutėj naudojant /re [žinutė] nebegalvos kad bandai panaudot komanda /r [žinutė] (a.k.a. /dideti 1k [žinutė]).
